@@ -8,7 +8,7 @@ import io.xeros.model.entity.player.Player;
 public class VestaLongsword extends Special {
 
 	public VestaLongsword() {
-		super(2.5, 1.0, 0.20, new int[] { 22613 });
+		super(2.5, 1.0, 0.50, new int[] { 22613 });
 	}
 
 	@Override

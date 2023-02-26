@@ -652,7 +652,7 @@ public class NpcOptionOne {
 			player.clickNpcType = 1;
 			Fishing.attemptdata(player, 14);
 			break;
-		case 4712:
+		case 4712: // Karambwan NPC
 			player.clickNpcType = 1;
 			Fishing.attemptdata(player, 15);
 			break;
@@ -671,7 +671,7 @@ public class NpcOptionOne {
 		case 635:
 			Fishing.attemptdata(player, 13); // DARK CRAB FISHING
 			break;
-		case 6825: // Anglerfish
+		case 6825: // Anglerfish NPC
 			player.clickNpcType = 1;
 			Fishing.attemptdata(player, 16);
 			break;
