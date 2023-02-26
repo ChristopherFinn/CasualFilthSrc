@@ -1,0 +1,97 @@
+plugins {
+    id 'java'
+    id 'war'
+    id 'application'
+    id "org.jetbrains.kotlin.jvm" version "1.5.21"
+}
+
+mainClassName = "io.xeros.Server"
+
+repositories {
+    mavenCentral()
+    maven {
+        name 'm2-dv8tion'
+        url 'https://m2.dv8tion.net/releases'
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        kotlin {
+            srcDir 'srcKotlin'
+        }
+        resources {
+            srcDir 'resources'
+        }
+    }
+    test {
+        java {
+            srcDir 'test'
+        }
+        kotlin {
+            srcDir 'testKotlin'
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    compile fileTree(dir: 'deps', include: ['*.jar'])
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.7.1'
+
+    testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.0'
+
+    // https://mvnrepository.com/artifact/org.reflections/reflections
+    compile group: 'org.reflections', name: 'reflections', version: '0.9.12'
+
+    compile 'com.fasterxml.jackson.core:jackson-core:2.8.6'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.8.6'
+    compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.6'
+
+    implementation group: 'de.svenkubiak', name: 'jBCrypt', version: '0.4.1'
+
+    implementation group: 'com.github.cage', name: 'cage', version: '1.0'
+
+    // Logging
+    compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.25'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+
+    // mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
+
+    // discord bot
+    implementation 'net.dv8tion:JDA:4.2.1_253'
+
+    // https://mvnrepository.com/artifact/org.flywaydb/flyway-core
+    implementation group: 'org.flywaydb', name: 'flyway-core', version: '7.11.0'
+
+    // https://mvnrepository.com/artifact/commons-net/commons-net
+    implementation group: 'commons-net', name: 'commons-net', version: '3.8.0'
+
+    // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '3.4.5'
+
+    // https://search.maven.org/artifact/org.jsoup/jsoup/1.14.2/jar
+    implementation 'org.jsoup:jsoup:1.14.2'
+
+    // https://mvnrepository.com/artifact/io.netty/netty-all
+    implementation group: 'io.netty', name: 'netty-all', version: '4.1.68.Final'
+}
+
+distZip {
+    into(project.name) {
+        from '.'
+        into project.name + '/bin/'
+        include 'etc/'
+    }
+}

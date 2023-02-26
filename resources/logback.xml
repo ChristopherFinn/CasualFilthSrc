@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <timestamp key="timestamp" datePattern="yyyy MMMM dd hh-mm a"/>
+
+    <!-- Turns off annoying logback info -->
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{HH:mm:ss.SSS} [%t] %-5level %logger{999} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>./logs/${timestamp}.log</file>
+        <append>true</append>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+    <logger name="com.zaxxer.hikari" level="ERROR" />
+    <logger name="org.reflections" level="ERROR"/>
+    <logger name="org.flywaydb" level="INFO"/>
+    <logger name="io.netty.buffer" level="ERROR"/>
+
+    <!-- Game server -->
+    <logger name="io.xeros.model.entity.npc" level="ERROR"/>
+    <logger name="io.xeros.sql.DatabaseManager" level="ERROR"/>
+</configuration>

@@ -1,0 +1,529 @@
+
+Digging spade: 1470
+1041: putting in bank pin button
+
+2266: Clicking buttons on interfaces etc
+
+
+--- Combat sounds ---
+Unarmed: 2566
+Crossbow: 2695
+Whip: 2720 SPEC: 2713
+Scimitar: 2500 / 2501 on lunge Dragon scimmy spec: 2540
+Halberd: 2524 / 2562 on jab
+2h: 2503 / 2502 on smash
+dagger: 2549 Dragon dagger spec: 2537
+gmaul: 2714 SPEC: 2715
+obby maul: 2520
+chins: 2706
+mace: 2508 Dragon mace spec: 2549
+knives: 2707
+darts: 2696
+bow: 2693
+spear: 2556 Dragon spear spec: 2544
+flail: 1323 / 1342 on spike
+dh axe: 1321 / 1316 on smash
+sara sword: 3847 / 3846 on smash Special attack: 3869 + 3887 at the same time
+Dragon claws: 2548, 2537 spec
+
+3847 : godsword regular hit
+3846: godsword 'smash'
+3869: godsword specs (area sound)
+1080: dragon c'bow spec sound
+Dark bow: regular attack sound 3731
+Dark bow spec: area sound 3737, regular sound 3731, 3733
+
+Lever teleport:
+2400 - pull lever
+200 - teleport
+
+Wizard teleport:
+127
+126
+
+Ancient tele: 197
+
+
+--- Prayer ---
+prayer deactivated: 2663
+thick skin: 2690
+burst of strength: 2688
+clarity of thought: 2664
+sharp eye: 2685
+mystic will: 2670
+rock skin: 2684
+superhuman strength: 2689
+improved reflexes: 2662
+rapid restore: 2679
+rapid heal: 2678
+prot item: 1982
+hawk eye: 2666
+mystic lore: 2668
+steel skin: 2687
+ultimate strength: 2691
+incred reflexes: 2667
+prot from mage: 2675
+prot from ranged: 2677
+prot from melee: 2676
+eagle eye: 2665
+mystic might: 2669
+retribution: 2682
+redemption: 2680
+smite: 2686
+preserve: 2679
+chivalry: 3826
+piety: 3825
+
+
+potion about to expire (anti-fire, stamina etc): 3120
+potion effect expired: 1792
+
+1930: random event *poof*
+
+opening a door: 62
+teleporting: 200
+tablet teleport: 965
+
+
+--- NPC combat sounds ---
+471: goblin death
+472: goblin taking damage
+469: goblin hitting player
+
+513: man taking damage:
+512: man death
+
+misc:
+3924: item in ge sold (cash sound)
+
+2277: not enough inv space
+
+
+2915: dragon bolts (e) spec
+2917: onyx bolts (e) spec
+2913: diamond bolts (e) spec
+2911: ruby bolts (e) spec
+2918: opal bolts (e) spec
+
+3920:
+3921:
+3922: herb cleaning
+3923:
+
+2608: herblore
+2586: cutting gems
+
+2581: pickpocket
+2727: pickpocket fail
+
+
+spell sounds:
+227: splash
+
+119: confuse cast
+121: confuse success
+
+3011: weaken cast
+3010: weaken success
+
+127: curse cast
+125: curse success
+
+3008: vulnerability cast
+3009: vulnerability success
+
+148: enfeeble cast
+150: enfeeble success
+
+3004: stun cast
+3005: stun success
+
+1651: charge spell
+1650: charge spell fade
+
+114: bones to bananas
+98: low level alch
+97: high level alch
+
+191: superheat fail
+190: superheat
+
+
+220: wind strike cash
+221: wind strike hit
+
+211: water strike cash
+212: water strike hit
+
+160: fire strike cast
+161: fire strike hit
+
+132: earth strike cast
+133: earth strike hit
+
+218: wind bolt cast
+219: wind bolt hit
+
+209: water bolt cast
+210: water bolt hit
+
+130: earth bolt cast
+131: earth bolt hit
+
+157: fire bolt cast
+158: fire bolt hit
+
+122: crumble undead cast
+124: crumble undead hit
+
+2907: veng
+
+3006:
+3007: telegrab (both played at the same time)
+
+216: wind blast cast
+217: wind blast hit
+
+207: water blast cast
+208: water blast hit
+
+128: earth blast cast
+129: earth blast hit
+
+155: fire blast cast
+156: fire blast hit
+
+222: wind wave cast
+223: wind wave hit
+
+213: water wave cast
+214: water wave hit
+
+134: earth wave cast
+135: earth wave hit
+
+162: fire wave cast
+163: fire wave hit
+
+222: wind surge cast
+223: wind surge hit
+
+213: water surge cast
+214: water surge hit
+
+134: earth surge cast
+135: earth surge hit
+
+162: fire surge cast
+163: fire surge hit
+
+
+99: bind cast
+101: bind success
+
+3002: snare cast
+3003: snare success
+
+151: entangle cast
+153: entangle success
+
+
+ancients:
+183: smoke rush cast
+185: smoke rush hit
+
+178: shadow rush cast
+179: shadow rush hit
+
+106: blood rush cast
+110: blood rush hit
+
+171: ice rush cast
+173: ice rush hit
+
+183: smoke burst cast
+182: smoke burst hit
+
+178: shadow burst cast
+177: shadow burst hit
+
+106: blood burst cast
+105: blood burst hit
+
+171: ice burst cast
+170: ice burst hit
+
+183: smoke blitz cast
+181: smoke blitz impact
+
+178: shadow blitz cast
+176: shadow blitz impact
+
+106: blood blitz cast
+104: blood blitz impact
+
+171: ice blitz cast
+169: ice blitz impact
+
+183: smoke barrage cast
+180: smoke barrage impact
+
+178: shadow barrage cast
+175: shadow barrage impact
+
+106: blood blitz cast
+102: blood blitz impact
+
+171: ice barrage cast
+168: ice barrage impact
+
+Combat sounds:
+
+- Pickaxe - 2498
+- Axe - 2498
+- Wand - 2563
+- Dragon long spec - 2529
+- blowpipe: 2696 spec - 800 + 2696
+- ballista - normal hit - 2699 spec: Area sound 1931, sound 2536
+- Swords - stab - 2549 - slash 2548
+dinh's bulwark attack sound - 3454
+
+- Scythe - 2524
+
+2673 - prayer 'splash' sound (dont have required level etc)
+
+no armour block - 511
+"platebody" - 2366, 2367, 2368, 2369, 2370
+"chainbody" - 2761 / 2762 / 2763 / 2764 / 2765
+"kiteshield" - 2952 / 2948 / 2950 / 2951 / 2952
+"shield" and not "kiteshield" - 2959 / 2962 / 2961 / 2958 / 2960
+"crystal shield" - 1350 / 1345 / 1349 / 30 / 2968
+"torso" - 2831/ 2832 / 2833 / 2834 / 2835
+"d'hide shield" - 2757 / 2756 / 2759 / 2760 / 2758
+"d'hide body" - 2811 / 2812 / 2813 / 2814 / 2815
+"robetop": 2761 / 2762 / 2763 / 2764 / 2765
+void top: 2767 / 2766 / 2768 / 2769 / 2770
+"chestplate" - 2842 / 2841 / 2845 / 2843 / 2844
+
+if a player has a shield and a body, prioritise the shield sound
+sent as regular sounds even in pvp
+
+
+2548 - slash web
+
+sara strike - 1659
+zamorak flames - 1655
+claws of guthix - 1653
+
+wc - 2735
+smithing - 3790 / 3791
+2597 - firemaking
+2600 - fishing
+3220 - mining
+fletching - cutting logs: 2605 stringing: 3767 3766 3769 3768
+gem cutting - 2586
+
+Guard:
+Attack: 2549
+Hit: 1979
+Death: 512
+
+Wolf:
+Attack: 909
+Hit: 912
+Death: 911
+
+Rock crab:
+Attack: 717
+Hit: 723
+Death: 722
+
+Man:
+Attack: 2566
+Hit: 513
+Death: 512
+
+Ice giant:
+Attack: 448
+Hit: 451
+Death: 450
+
+Woman:
+Attack: 507
+Hit: 506
+Death: 505
+
+Mammoth:
+Attack: 623
+Hit: 625
+Death: 624
+
+Ice warrior:
+Attack: 2500
+Hit: 530
+Death: 529
+
+Cave crawler:
+Attack: 341
+Hit: 343
+Death: 342
+
+Rock slug:
+Attack: 729
+Hit: 731
+Death: 730
+
+Cokatrice
+Attack: 363
+Hit: 365
+Death: 364
+
+Pyrefiend:
+Attack: 696
+Hit: 698
+Death: 697
+
+Basilisk:
+Attack: 288
+Hit: 290
+Death: 289
+
+Jelly:
+Attack: 547
+Hit: 550
+Death: 549
+
+Turoth:
+Attack: 873
+Hit: 875
+Death: 874
+
+Kurask:
+Attack: 588
+Hit: 589
+Death: 590
+
+Ent:
+Attack: 822
+Hit: 824
+Death: 823
+
+Goblin:
+Attack: 469
+Hit: 472
+Death: 471
+
+Chicken:
+Attack: 355
+Hit: 357
+Death: 356
+
+Cow:
+Attack: 369
+Hit: 371
+Death: 370
+
+Calf
+Attack: 366
+Hit: 368
+Death: 367
+
+Giant spider:
+Attack: 537
+Hit: 539
+Death: 538
+
+Giant rat:
+Attack: 710
+Hit: 713
+Death: 711
+
+Skeleton:
+Attack: 776
+Hit: 779
+Death: 777
+
+Zombie:
+Attack: 918
+Hit: 923
+Death: 922
+
+Moss giant / Hill giant:
+Attack: 449
+Hit: 451
+Death: 450
+
+Fire giant:
+Attack: 447
+Hit: 451
+Death: 450
+
+Hobgoblin:
+Attack: 3520
+Hit: 472
+Death: 471
+
+Al kharid warrior:
+Attack: 2500
+Hit: 1976
+Death: 512
+
+Scorpion:
+Attack: 3611
+Hit: 3612
+Death: 3610
+
+Imp:
+Attack: 534
+Hit: 536
+Death: 535
+
+Magic axe:
+Attack: 2498
+Hit: 12
+Death: 1976
+
+Chaos dwarf:
+Attack: 2567
+Hit: 419
+Death: 418
+
+Lesser demon:
+Attack: 400
+Hit: 404
+Death: 403
+
+Black knight:
+Attack: 2503
+Hit: 15
+Death: 512
+
+Giant bat:
+Attack: 292
+Hit: 294
+Death: 293
+
+Ghost:
+Attack: 436
+Hit: 439
+Death: 438
+
+Dragon:
+Attack: 408
+Hit: 410
+Death: 409
+
+Grizzly bear:
+Attack: 300
+Hit: 302
+Death: 301
+
+Unicorn:
+Attack: 369
+Hit: 371
+Death: 370
+
+Hellhound:
+Attack: 3719
+Hit: 3717
+Death: 3718 
