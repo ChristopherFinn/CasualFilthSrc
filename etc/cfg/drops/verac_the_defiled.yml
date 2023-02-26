@@ -16,7 +16,7 @@ common:
     minimum: 100
     maximum: 250
 rare:
-  accessibility: 50
+  accessibility: 5000
   items:
   - name: "veracs flail"
     minimum: 1
