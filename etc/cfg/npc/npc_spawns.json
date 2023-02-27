@@ -1382,43 +1382,7 @@
     "walkingType": "WALK"
   },
   {
-    "id": 4712,
-    "position": {
-      "x": 3809,
-      "y": 2863,
-      "height": 0
-    },
-    "walkingType": "FACE_SOUTH"
-  },
-  {
-    "id": 6825,
-    "position": {
-      "x": 3811,
-      "y": 2863,
-      "height": 0
-    },
-    "walkingType": "FACE_SOUTH"
-  },
-  {
-    "id": 1520,
-    "position": {
-      "x": 3814,
-      "y": 2863,
-      "height": 0
-    },
-    "walkingType": "FACE_SOUTH"
-  },
-  {
-    "id": 635,
-    "position": {
-      "x": 3812,
-      "y": 2863,
-      "height": 0
-    },
-    "walkingType": "FACE_SOUTH"
-  },
-  {
-    "id": 3913,
+    "id": 4712, //Karambwan Spot
     "position": {
       "x": 3801,
       "y": 3525,
@@ -1427,7 +1391,25 @@
     "walkingType": "FACE_SOUTH"
   },
   {
-    "id": 3417,
+    "id": 6825, //Anglerfish Spot
+    "position": {
+      "x": 3800,
+      "y": 3525,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+    "id": 9474, //Mantaray Spot
+    "position": {
+      "x": 3798,
+      "y": 3525,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+    "id": 635, //Darkcrab Spot
     "position": {
       "x": 3799,
       "y": 3525,

@@ -14,7 +14,7 @@ import io.xeros.util.Misc;
 public class Configuration {
 
 	public static final int CLIENT_VERSION = 230;
-	public static String SERVER_NAME = "Casualand"; // just a simple test tyvm tyvm
+	public static String SERVER_NAME = "CasualRSPS";
 	public static final int PORT_DEFAULT = 52777;
 	public static final int PORT_TEST = 43595;
 
@@ -26,7 +26,7 @@ public class Configuration {
 	public static final String VOTE_LINK = null;
 	public static final String HISCORES_LINK = null;
 	public static final String STORE_LINK = null;
-	public static final String DISCORD_INVITE = null;
+	public static final String DISCORD_INVITE = "https://discord.gg/cFkdE6sQV6";
 	public static final String RULES_LINK = null;
 	public static final String GUIDES_LINK = null;
 	public static final String DONATOR_BENEFITS_LINK = null;

@@ -46399,5 +46399,10 @@
   "9473": {
     "combatLevel": 1,
     "size": 1
+  },
+  "9474": {
+    "name": "Big net fishing spot",
+    "combatLevel": 0,
+    "size": 1
   }
 }
