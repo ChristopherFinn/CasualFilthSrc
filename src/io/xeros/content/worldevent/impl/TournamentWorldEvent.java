@@ -51,6 +51,6 @@ public class TournamentWorldEvent implements WorldEvent {
 
     @Override
     public void announce(List<Player> players) {
-        new Broadcast("A not so Casual " + tourney.getTournamentType() + " tournament will begin soon, type ::outlast or click HERE to join!").addTeleport(new Position(3080, 3510, 0)).copyMessageToChatbox().submit();
+        new Broadcast("A not so Casual " + tourney.getTournamentType() + " tournament will begin soon, type ::outlast to join!").addTeleport(new Position(3080, 3510, 0)).copyMessageToChatbox().submit();
     }
 }

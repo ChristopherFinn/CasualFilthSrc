@@ -16,7 +16,7 @@ common:
     minimum: 100
     maximum: 250
 rare:
-  accessibility: 5000
+  accessibility: 40 #Changed from 50 to 40 - 2/26/2023 - Chris
   items:
   - name: "veracs flail"
     minimum: 1
