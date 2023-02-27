@@ -62,3 +62,5 @@ items:
   price: 7500
 - name: "ring of wealth scroll"
   price: 25000
+- name: "imbue dust"
+  price: 2000
