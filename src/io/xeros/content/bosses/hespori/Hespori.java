@@ -69,11 +69,11 @@ public class Hespori {
 
 	public static final int SPECIAL_HIT_GFX = 179;
 
-	public static final int ESSENCE_REQUIRED = 200;
+	public static final int ESSENCE_REQUIRED = 100; //Updated from 200 to 100 - 2/27/2023 - Chris
 	public static final int TOXIC_GEM_EFFECT = 30;
 
 	public static int TOXIC_GEM_AMOUNT = 0;
-	public static int HESPORI_DEFENCE = 3000;
+	public static int HESPORI_DEFENCE = 1500; //Updated from 3000 to 1500 - 2/27/2023 - Chris
 
 	public static int TOTAL_ESSENCE_BURNED = 0;
 
@@ -165,12 +165,12 @@ public class Hespori {
 			PlayerHandler.nonNullStream().filter(p -> Boundary.isIn(p, Boundary.HESPORI))
 					.forEach(p -> {
 
-						if (TOXIC_GEM_AMOUNT < 100) {
+						if (TOXIC_GEM_AMOUNT < 50) { //Changed from 100 to 50 and extreme weak from 200 to 100 - 2/27/2023 - Chris
 							p.sendMessage("@blu@Hespori's defence has been lowered but is still too high!");
 						} else if (!isWeak) {
 							p.sendMessage("@red@Hespori is now weak and vulnerable to attacks but can still be weakened.");
 							isWeak = true;
-						} else if (TOXIC_GEM_AMOUNT > 200) {
+						} else if (TOXIC_GEM_AMOUNT > 100) {
 							p.sendMessage("@red@Hespori is now extremely weak!");
 						}
 					});

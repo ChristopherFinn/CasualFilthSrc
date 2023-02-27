@@ -17,7 +17,7 @@ public class HesporiSpawner {
 
 	public enum Npcs {
 
-		HESPORI(Hespori.NPC_ID, "Hespori", 65000, 2, 250, 3000);
+		HESPORI(Hespori.NPC_ID, "Hespori", 20000, 2, 250, 3000); //Updated hp from 65000 to 20000 - 2/27/2023 - Chris
 
 		private final int npcId;
 
