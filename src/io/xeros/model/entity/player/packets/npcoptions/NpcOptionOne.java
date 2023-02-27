@@ -656,9 +656,9 @@ public class NpcOptionOne {
 			player.clickNpcType = 1;
 			Fishing.attemptdata(player, 15);
 			break;
-		case 1524:
+		case 1524: //Mantaray NPC
 			player.clickNpcType = 1;
-			Fishing.attemptdata(player, 11);
+			Fishing.attemptdata(player, 12);
 			break;
 		case 3417: // TROUT
 			player.clickNpcType = 1;
@@ -674,10 +674,6 @@ public class NpcOptionOne {
 		case 6825: // Anglerfish NPC
 			player.clickNpcType = 1;
 			Fishing.attemptdata(player, 16);
-			break;
-		case 9474: // Mantaray NPC
-			player.clickNpcType = 1;
-			Fishing.attemptdata(player, 12);
 			break;
 		case 1520: // LURE
 		case 310:

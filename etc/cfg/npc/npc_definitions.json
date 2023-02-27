@@ -7534,8 +7534,8 @@
     "combatLevel": 0,
     "size": 1
   },
-  "1524": {
-    "name": "Fishing spot",
+  "1524": { //Swapped to mantarays
+    "name": "Big net Fishing spot",
     "combatLevel": 0,
     "size": 1
   },
@@ -46398,11 +46398,6 @@
   },
   "9473": {
     "combatLevel": 1,
-    "size": 1
-  },
-  "9474": { //Mantaray Spot
-    "name": "Big net fishing spot",
-    "combatLevel": 0,
     "size": 1
   }
 }
