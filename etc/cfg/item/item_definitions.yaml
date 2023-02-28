@@ -21013,13 +21013,13 @@
   shopValue: 1
 - id: 4205
   name: "Consecration seed"
-  description: "This consecration seed looks grey and dead."
+  description: "The Consecration seed gives an hour of bonus PC points."
   stackable: true
   shopValue: 1
   untradeable: true
 - id: 4206
   name: "Consecration seed"
-  description: "This consecration seed glows with a warm light."
+  description: "The Consecration seed gives an hour of bonus PC points."
   shopValue: 1
 - id: 4207
   name: "Crystal seed"
@@ -29690,7 +29690,7 @@
       level: 50
 - id: 6112
   name: "Kelda seed"
-  description: "Gives 2x Larren's keys for 1 hour!"
+  description: "The Kelda seed gives 2x Larren's keys for 1 hour."
   stackable: true
   shopValue: 2
   untradeable: true
@@ -70768,14 +70768,17 @@
       level: 60
 - id: 22881
   name: "Attas seed"
+  description: "The Attas seed grants an hour of bonus xp."
   stackable: true
   untradeable: true
 - id: 22883
   name: "Iasor seed"
+  description: "The Iasor seed grants double drops for an hour."
   stackable: true
   untradeable: true
 - id: 22885
   name: "Kronos seed"
+  description: "The Kronos seed grants double Key drops from CoX and double chances at ToB."
   stackable: true
   untradeable: true
 - id: 22954
