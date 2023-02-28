@@ -30,7 +30,7 @@ public class SlayerRewardsInterface {
                 for (int index = 0; index < SlayerRewardsInterfaceData.BLOCKED_TASK_STRINGS.length; index++) {
                     String blocked = player.getSlayer().getRemoved()[index];
                     if (blocked == null || blocked.length() == 0) {
-                        if (index > 2 && !player.getRights().isOrInherits(Right.REGULAR_DONATOR)) {
+                        if (index > 2 && !player.getRights().isOrInherits(Right.PLAYER)) { //Updated rights from Donor Rank to Player to remove paywall - 2/27/2023 - Chris
                             blocked = "@red@Donator rank required for this slot.";
                         } else {
                             blocked = "Empty";

@@ -28,7 +28,7 @@ public class Fishing extends SkillHandler {
 
 	/**
 	 * Fishing data
-	 * Id, Level, Equipment, Bait, Raw material, XP, Animation,   //what're you doing here again? well im getting rid of most dono garbage, so im trying to add anglers and karambwan to skill island
+	 * Id, Level, Equipment, Bait, Raw material, XP, Animation,
 	 */
 	public static int[][] data = { 
 			{ 1, 1, 303, -1, 317, 10, 621, 321, 15, 30, 12000 }, // SHRIMP
