@@ -54186,7 +54186,7 @@
   shopValue: 1
 - id: 11785
   name: "Armadyl crossbow"
-  description: "No matter how I turn it, the sand doesn't seem to move."
+  description: "A weapon originally developed for Armadyl's forces."
   shopValue: 10200000
   noteId: 11786
   requirements:
@@ -54194,7 +54194,7 @@
       level: 70
 - id: 11786
   name: "Armadyl crossbow"
-  description: "Used to sharpen the blade of a scythe."
+  description: "A weapon originally developed for Armadyl's forces."
   noteId: 11785
   noted: true
   stackable: true
@@ -55441,12 +55441,12 @@
   stackable: true
 - id: 12002
   name: "Occult necklace"
-  description: "Null"
-  shopValue: 45000
+  description: "A smokey evil embodies this amulet."
+  shopValue: 550000
   noteId: 12003
 - id: 12003
   name: "Occult necklace"
-  description: "It has been oxidised."
+  description: "A smokey evil embodies this amulet."
   noteId: 12002
   noted: true
   stackable: true
@@ -55457,7 +55457,7 @@
   noteId: 12005
 - id: 12005
   name: "Kraken tentacle"
-  description: "It has been oxidised."
+  description: "Un-note and attach this to a whip."
   noteId: 12004
   noted: true
   stackable: true
