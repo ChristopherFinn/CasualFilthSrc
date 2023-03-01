@@ -43593,7 +43593,7 @@
 - id: 9144
   name: "Runite bolts"
   description: "Runite crossbow bolts."
-  shopValue: 2000
+  shopValue: 1000
   stackable: true
 - id: 9145
   name: "Silver bolts"
