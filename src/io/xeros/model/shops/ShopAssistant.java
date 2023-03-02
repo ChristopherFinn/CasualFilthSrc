@@ -1359,9 +1359,9 @@ public class ShopAssistant {
 				return 10;
 			case 6121:
 				if (c.myShopId ==  80) {
-					return 300;
+					return 0;
 				}
-				return 250;
+				return 0;
 			case 19641:
 			case 19645:
 			case 19649:
