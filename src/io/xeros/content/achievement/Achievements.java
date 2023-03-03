@@ -121,16 +121,16 @@ public class Achievements {
          */
         //GROTESQUE_GUARDIANS("Grotesque",  4, AchievementTier.TIER_4, AchievementType.GROTESQUES, "Kill %d Grotesques\\nGuardians", 100, 4, new GameItem(6828, 1), new GameItem(995, 10000000)),
 
-        THE_NIGHTMARE( 5, AchievementTier.TIER_4, AchievementType.NIGHTMARE, "Kill %d Nightmare", 100, 4, new GameItem(6828, 1), new GameItem(995, 10000000)),
-        ALCHEMICAL_HYDRA( 6, AchievementTier.TIER_4, AchievementType.HYDRA, "Kill %d Hydra", 100, 4, new GameItem(6828, 1), new GameItem(995, 10000000)),
-        MIMIC( 8, AchievementTier.TIER_4, AchievementType.MIMIC, "Kill %d Mimics", 20, 4, new GameItem(6199, 1), new GameItem(995, 10000000)),
+        THE_NIGHTMARE( 5, AchievementTier.TIER_4, AchievementType.NIGHTMARE, "Kill %d Nightmare", 100, 4, new GameItem(995, 10000000)),
+        ALCHEMICAL_HYDRA( 6, AchievementTier.TIER_4, AchievementType.HYDRA, "Kill %d Hydra", 100, 4, new GameItem(995, 10000000)),
+        MIMIC( 8, AchievementTier.TIER_4, AchievementType.MIMIC, "Kill %d Mimics", 20, 4, new GameItem(995, 10000000)),
         HUNLLEF( 9, AchievementTier.TIER_4, AchievementType.HUNLLEF, "Kill %d Hunllefs", 25, 4, new GameItem(23776, 1), new GameItem(995, 10000000)),
-        TOB_CHAMPION( 0, AchievementTier.TIER_4, AchievementType.TOB, "Complete %d Theatre\\nof Blood runs (Raids 2)", 50, 4, new GameItem(13346, 1), new GameItem(995, 10_000_000)),
-        COX_CHAMPION( 1, AchievementTier.TIER_4, AchievementType.COX, "Complete %d Chamber\\nof Xeric runs (Raids 1)", 100, 4, new GameItem(6828, 1), new GameItem(995, 10000000)),
+        TOB_CHAMPION( 0, AchievementTier.TIER_4, AchievementType.TOB, "Complete %d Theatre\\nof Blood runs (Raids 2)", 50, 4, new GameItem(995, 10_000_000)),
+        COX_CHAMPION( 1, AchievementTier.TIER_4, AchievementType.COX, "Complete %d Chamber\\nof Xeric runs (Raids 1)", 100, 4, new GameItem(995, 10000000)),
         FIRE_OF_EXCHANGE(  7, AchievementTier.TIER_4, AchievementType.FOE_POINTS, "Burn %d Exchange\\nPoints", 150000, 4, new GameItem(30010, 1), new GameItem(995, 10000000)),
         WILDY_EVENT( 3, AchievementTier.TIER_4, AchievementType.WILDY_EVENT, "Finish %d\\nWildy Events", 15, 4, new GameItem(TheUnbearable.KEY, 4), new GameItem(FragmentOfSeren.KEY, 1), new GameItem(995, 10000000)),
         MAGE_ARENA_II( 10, AchievementTier.TIER_4, AchievementType.MAGE_ARENA_II, "Complete %d\\nMage Arena II", 1, 4, new GameItem(2528, 4), new GameItem(995, 10000000)),
-        MAX( 11, AchievementTier.TIER_4, AchievementType.MAX, "Achieve level 99 in\\nall skills", 1, 4, new GameItem(13346, 1), new GameItem(691, 1), new GameItem(995, 10000000));
+        MAX( 11, AchievementTier.TIER_4, AchievementType.MAX, "Achieve level 99 in\\nall skills", 1, 4, new GameItem(691, 1), new GameItem(995, 10000000));
 
         private String formattedName;
         private final AchievementTier tier;
