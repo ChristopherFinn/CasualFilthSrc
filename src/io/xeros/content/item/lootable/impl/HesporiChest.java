@@ -111,10 +111,10 @@ public class HesporiChest implements Lootable {
 
     @Override
     public void roll(Player c) {
-        int random = Misc.random(1000);
-        int rareChance = 950;
+        int random = Misc.random(100); //Changed from 1000 to 100
+        int rareChance = 90; //Changed from 950 to 90
         if (c.getItems().playerHasItem(21046)) {
-            rareChance = 920;
+            rareChance = 75; //Changed from 920 to 75
             c.getItems().deleteItem(21046, 1);
             c.sendMessage("@red@You sacrifice your @cya@tablet @red@for an increased drop rate." );
             c.getEventCalendar().progress(EventChallenge.USE_X_CHEST_RATE_INCREASE_TABLETS, 1);

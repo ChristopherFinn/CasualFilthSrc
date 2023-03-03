@@ -24,8 +24,8 @@ import io.xeros.util.Misc;
 public class MonsterHunt {
 
 	public enum Npcs {
-		FRAGMENT_OF_SEREN(FragmentOfSeren.FRAGMENT_ID, "Seren", 15000, 30, 250, 250),
-		UNBEARABLE(TheUnbearable.NPC_ID, "Unbearable", 15000, 55, 400, 350);
+		FRAGMENT_OF_SEREN(FragmentOfSeren.FRAGMENT_ID, "Seren", 5000, 30, 250, 250),
+		UNBEARABLE(TheUnbearable.NPC_ID, "Unbearable", 5000, 55, 400, 350);
 		
 		private final int npcId;
 
