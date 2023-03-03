@@ -68,6 +68,7 @@ public class IronmanMode extends Mode {
 		case 22:
 		case 23:
 		case 20:
+		case 16:
 		case 26:
 		case 13:
 		case 14:
@@ -131,6 +132,7 @@ public class IronmanMode extends Mode {
 		case 10:
 		case 114:
 		case 190:
+		case 16:
 			case 147:
 			return true;
 		case 6:
@@ -199,12 +201,6 @@ public class IronmanMode extends Mode {
 					|| itemId == Items.BRACELET_MOULD) {
 				return true;
 			}
-//			break;
-//
-//		case 16:
-//			if (itemId == 5341 || itemId == 5343 || itemId == 5340 || itemId == 1925) {
-//				return true;
-//			}
 			break;
 
 		case 12:
