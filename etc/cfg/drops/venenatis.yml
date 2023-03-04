@@ -21,7 +21,7 @@ common:
 uncommon:
   accessibility: 5
   items:
-  - name: "cannon balls"
+  - name: "cannonball"
     minimum: 100
     maximum: 500
   - name: "diamond bolts e"
