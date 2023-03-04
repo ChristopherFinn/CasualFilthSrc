@@ -3,9 +3,9 @@ npc_id: 6610
 common:
   accessibility: 1
   items:
-  - name: "rune pickaxe"
+  - name: "rune pickaxe noted"
     minimum: 1
-    maximum: 1
+    maximum: 3
   - name: "uncut ruby noted"
     minimum: 5
     maximum: 25
@@ -21,6 +21,9 @@ common:
 uncommon:
   accessibility: 5
   items:
+  - name: "cannon ball"
+    minimum: 100
+    maximum: 500
   - name: "diamond bolts e"
     minimum: 100
     maximum: 300
@@ -40,14 +43,14 @@ uncommon:
     minimum: 25
     maximum: 25
   - name: "magic logs noted"
-    minimum: 25
-    maximum: 25
+    minimum: 75
+    maximum: 225
   - name: "uncut dragonstone"
     minimum: 1
-    maximum: 1
+    maximum: 5
   - name: "onyx bolt tips"
     minimum: 60
-    maximum: 60
+    maximum: 150
   - name: "archaic emblem tier 1"
     minimum: 1
     maximum: 1
