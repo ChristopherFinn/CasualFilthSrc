@@ -800,7 +800,7 @@ public class Slayer {
 			return;
 		}
 		for (int index = 0; index < removed.length; index++) {
-			if (index > 2 && !player.getRights().isOrInherits(Right.REGULAR_DONATOR)) {
+			if (index > 2 && !player.getRights().isOrInherits(Right.PLAYER)) {
 				player.sendMessage("You must be a donator to block more tasks.");
 				return;
 			} else if (removed[index].isEmpty()) {

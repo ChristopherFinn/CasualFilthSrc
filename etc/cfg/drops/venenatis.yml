@@ -7,17 +7,17 @@ common:
     minimum: 1
     maximum: 3
   - name: "uncut ruby noted"
-    minimum: 5
-    maximum: 25
+    minimum: 25
+    maximum: 75
   - name: "uncut diamond noted"
-    minimum: 5
-    maximum: 25
+    minimum: 10
+    maximum: 35
   - name: "dark crab"
     minimum: 1
     maximum: 3
   - name: "super restore4"
     minimum: 1
-    maximum: 3
+    maximum: 2
 uncommon:
   accessibility: 5
   items:
