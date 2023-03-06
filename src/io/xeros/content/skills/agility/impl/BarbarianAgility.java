@@ -18,7 +18,7 @@ import io.xeros.model.entity.player.Player;
 public class BarbarianAgility {
 
 	public static final int BARBARIAN_SWING_ROPE_OBJECT = 23131, BARBARIAN_LOG_BALANCE_OBJECT = 23144, BARBARIAN_NET_OBJECT = 20211, BARBARIAN_LEDGE_OBJECT = 23547,
-			BARBARIAN_LADDER_OBJECT = 42487, BARBARIAN_WALL_OBJECT = 1948;
+			BARBARIAN_LADDER_OBJECT = 16683, BARBARIAN_WALL_OBJECT = 1948;
 
 	public boolean barbarianCourse(final Player c, final int objectId) {
 		switch (objectId) {
