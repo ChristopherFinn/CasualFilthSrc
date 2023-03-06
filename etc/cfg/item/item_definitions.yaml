@@ -72393,5 +72393,5 @@
   shopValue: 100000000
   untradeable: false
   requirements:
-    - skill: "RANGE"
+    - skill: "RANGED"
       level: 80
