@@ -712,7 +712,7 @@ public class AttackEntity {
             }
 
             attacker.usingCross =
-                    attacker.playerEquipment[Player.playerWeapon] == 4734 || attacker.playerEquipment[Player.playerWeapon] == 9185 || attacker.playerEquipment[Player.playerWeapon] == 11785 || attacker.playerEquipment[Player.playerWeapon] == 21012 || attacker.playerEquipment[Player.playerWeapon] == 21902;
+                    attacker.playerEquipment[Player.playerWeapon] == 4734 || attacker.playerEquipment[Player.playerWeapon] == 9185 || attacker.playerEquipment[Player.playerWeapon] == 11785 || attacker.playerEquipment[Player.playerWeapon] == 21012 || attacker.playerEquipment[Player.playerWeapon] == 21902 || attacker.playerEquipment[Player.playerWeapon] == 26374;
             attacker.usingBallista =
                     attacker.playerEquipment[Player.playerWeapon] == 19481 || attacker.playerEquipment[Player.playerWeapon] == 19478;
 
@@ -779,13 +779,13 @@ public class AttackEntity {
             }
 
             if (!Bow.canUseArrow(attacker) && Configuration.CORRECT_ARROWS && attacker.usingBow && !attacker.getCombatItems().usingCrystalBow() && !(attacker.playerEquipment[Player.playerWeapon] == 22550) && attacker.playerEquipment[Player.playerWeapon] != 9185
-                    && attacker.playerEquipment[Player.playerWeapon] != 4734 && attacker.playerEquipment[Player.playerWeapon] != 11785 && attacker.playerEquipment[Player.playerWeapon] != 21012 && attacker.playerEquipment[Player.playerWeapon] != 12926 && attacker.playerEquipment[Player.playerWeapon] != 19478 && attacker.playerEquipment[Player.playerWeapon] != 19481 && attacker.playerEquipment[Player.playerWeapon] != 21902) {
+                    && attacker.playerEquipment[Player.playerWeapon] != 4734 && attacker.playerEquipment[Player.playerWeapon] != 11785 && attacker.playerEquipment[Player.playerWeapon] != 21012 && attacker.playerEquipment[Player.playerWeapon] != 12926 && attacker.playerEquipment[Player.playerWeapon] != 19478 && attacker.playerEquipment[Player.playerWeapon] != 19481 && attacker.playerEquipment[Player.playerWeapon] != 21902 && attacker.playerEquipment[Player.playerWeapon] != 26374) {
                 attacker.sendMessage("You can't use " + ItemAssistant.getItemName(attacker.playerEquipment[Player.playerArrows]).toLowerCase() + "'s with a "
                         + ItemAssistant.getItemName(attacker.playerEquipment[Player.playerWeapon]).toLowerCase() + ".");
                 return false;
             }
 
-            if (attacker.playerEquipment[Player.playerWeapon] == 9185 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 11785 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21012 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21902 && !attacker.getCombatItems().properBolts()) {
+            if (attacker.playerEquipment[Player.playerWeapon] == 9185 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 11785 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21012 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21902 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 26374 && !attacker.getCombatItems().properBolts()) {
                 attacker.sendMessage("You must use bolts with a crossbow.");
                 return false;
             }

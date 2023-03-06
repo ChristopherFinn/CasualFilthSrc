@@ -72387,3 +72387,11 @@
       level: 30
     - skill: "MAGIC"
       level: 30
+- id: 26374
+  name: "Zaryte Crossbow"
+  description: "A weapon born out of conflict."
+  shopValue: 100000000
+  untradeable: false
+  requirements:
+    - skill: "RANGE"
+      level: 80

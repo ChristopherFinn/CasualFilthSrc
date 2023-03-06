@@ -67806,10 +67806,14 @@
     "weight": 3.628,
     "equipment": {
       "slot": 3,
-      "arange": 70,
-      "rstr": 20,
-      "prayer": 4,
-      "aspeed": 6
+      "arange": 110,
+      "prayer": 1,
+      "aspeed": 6,
+      "dstab": 14,
+      "dslash": 14,
+      "dcrush": 12,
+      "dmagic": 15,
+      "drange": 16
     }
   }
 }

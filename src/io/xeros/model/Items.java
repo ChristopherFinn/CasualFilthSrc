@@ -22341,6 +22341,7 @@ public class Items {
     public static final int RUNNER_HAT_BROKEN = 24_531;
     public static final int RUNNER_HAT_BROKEN_2 = 24_532;
     public static final int RUNNER_HAT_L = 24_533;
+    public static final int ZARYTE_CROSSBOW = 26_374;
     public static final int RESOURCE_BOXSMALL = 30_000;
     public static final int RESOURCE_BOXMEDIUM = 30_001;
     public static final int RESOURCE_BOXLARGE = 30_002;
