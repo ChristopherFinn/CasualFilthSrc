@@ -60756,7 +60756,7 @@
   shopValue: 1
 - id: 13072
   name: "Elite void top"
-  description: "Broken superior torso armour from the order of the Void Knights."
+  description: "Superior torso armour from the order of the Void Knights."
   shopValue: 100000
   untradeable: true
   equipmentModelType: "FULL_BODY"
@@ -60769,7 +60769,7 @@
       level: 42
 - id: 13073
   name: "Elite void robe"
-  description: "Broken superior leg armour from the order of the Void Knights."
+  description: "Superior leg armour from the order of the Void Knights."
   shopValue: 100000
   untradeable: true
   requirements:
@@ -72395,3 +72395,103 @@
   requirements:
     - skill: "RANGED"
       level: 80
+- id: 26469
+  name: "Elite void top (or)"
+  description: "Decorated torso armour of the order of the Void Knights."
+  shopValue: 75000
+  untradeable: true
+  equipmentModelType: "FULL_BODY"
+  requirements:
+    - skill: "ATTACK"
+      level: 42
+    - skill: "DEFENCE"
+      level: 42
+    - skill: "STRENGTH"
+      level: 42
+    - skill: "RANGED"
+      level: 42
+    - skill: "MAGIC"
+      level: 42
+- id: 26469
+  name: "Elite void robe (or)"
+  description: "Decorated leg armour of the order of the Void Knights."
+  shopValue: 75000
+  untradeable: true
+  requirements:
+    - skill: "ATTACK"
+      level: 42
+    - skill: "DEFENCE"
+      level: 42
+    - skill: "STRENGTH"
+      level: 42
+    - skill: "RANGED"
+      level: 42
+    - skill: "MAGIC"
+      level: 42
+- id: 26477
+  name: "Void melee helm (or)"
+  description: "A decorated melee helm from the order of the Void Knights."
+  shopValue: 75000
+  untradeable: true
+  equipmentModelType: "FULL_HELMET"
+  requirements:
+    - skill: "ATTACK"
+      level: 42
+    - skill: "DEFENCE"
+      level: 42
+    - skill: "STRENGTH"
+      level: 42
+    - skill: "RANGED"
+      level: 42
+    - skill: "MAGIC"
+      level: 42
+- id: 26475
+  name: "Void ranger helm (or)"
+  description: "A decorated ranger helm from the order of the Void Knights."
+  shopValue: 75000
+  untradeable: true
+  equipmentModelType: "FULL_HELMET"
+  requirements:
+    - skill: "ATTACK"
+      level: 42
+    - skill: "DEFENCE"
+      level: 42
+    - skill: "STRENGTH"
+      level: 42
+    - skill: "RANGED"
+      level: 42
+    - skill: "MAGIC"
+      level: 42
+- id: 26473
+  name: "Void mage helm (or)"
+  description: "A decorated mage helm from the order of the Void Knights."
+  shopValue: 75000
+  untradeable: true
+  equipmentModelType: "FULL_HELMET"
+  requirements:
+    - skill: "ATTACK"
+      level: 42
+    - skill: "DEFENCE"
+      level: 42
+    - skill: "STRENGTH"
+      level: 42
+    - skill: "RANGED"
+      level: 42
+    - skill: "MAGIC"
+      level: 42
+- id: 26467
+  name: "Void knight gloves (or)"
+  description: "Decorated gloves as used by the order of the void knights."
+  shopValue: 15000
+  untradeable: true
+  requirements:
+    - skill: "ATTACK"
+      level: 42
+    - skill: "DEFENCE"
+      level: 42
+    - skill: "STRENGTH"
+      level: 42
+    - skill: "RANGED"
+      level: 42
+    - skill: "MAGIC"
+      level: 42

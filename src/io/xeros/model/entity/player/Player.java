@@ -3356,10 +3356,16 @@ public class Player extends Entity {
     }
 
     public boolean fullEliteVoidRange() {
+        if (getItems().isWearingItem(26475) && getItems().isWearingItem(26471) && getItems().isWearingItem(26469) && getItems().isWearingItem(26467)) {
+            return true;
+        }
         return getItems().isWearingItem(11664) && getItems().isWearingItem(13073) && getItems().isWearingItem(13072) && getItems().isWearingItem(8842);
     }
 
     public boolean fullEliteVoidMage() {
+        if (getItems().isWearingItem(26473) && getItems().isWearingItem(26471) && getItems().isWearingItem(26469) && getItems().isWearingItem(26467)) {
+            return true;
+        }
         return getItems().isWearingItem(11663) && getItems().isWearingItem(13073) && getItems().isWearingItem(13072) && getItems().isWearingItem(8842);
     }
 

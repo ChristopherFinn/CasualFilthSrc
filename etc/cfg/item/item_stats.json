@@ -67815,5 +67815,85 @@
       "dmagic": 15,
       "drange": 16
     }
+  },
+  "26471": {
+    "name": "Elite void robe (or)",
+    "equipable": true,
+    "weight": 6.0,
+    "equipment": {
+      "slot": 7,
+      "dstab": 30,
+      "dslash": 30,
+      "dcrush": 30,
+      "dmagic": 30,
+      "drange": 30,
+      "prayer": 3
+    }
+  },
+  "26469": {
+    "name": "Elite void top (or)",
+    "equipable": true,
+    "weight": 6.0,
+    "equipment": {
+      "slot": 4,
+      "dstab": 45,
+      "dslash": 45,
+      "dcrush": 45,
+      "dmagic": 45,
+      "drange": 45,
+      "prayer": 3
+    }
+  },
+  "26477": {
+    "name": "Void melee helm (or)",
+    "equipable": true,
+    "weight": 0.453,
+    "equipment": {
+      "slot": 0,
+      "dstab": 6,
+      "dslash": 6,
+      "dcrush": 6,
+      "dmagic": 6,
+      "drange": 6
+    }
+  },
+  "26475": {
+    "name": "Void ranger helm (or)",
+    "equipable": true,
+    "weight": 0.453,
+    "equipment": {
+      "slot": 0,
+      "dstab": 6,
+      "dslash": 6,
+      "dcrush": 6,
+      "dmagic": 6,
+      "drange": 6
+    }
+  },
+  "26473": {
+    "name": "Void mage helm (or)",
+    "equipable": true,
+    "weight": 0.453,
+    "equipment": {
+      "slot": 0,
+      "dstab": 6,
+      "dslash": 6,
+      "dcrush": 6,
+      "dmagic": 6,
+      "drange": 6
+    }
+  },
+  "26467": {
+    "name": "Void knight gloves (or)",
+    "equipable": true,
+    "weight": 0.453,
+    "equipment": {
+      "slot": 9,
+      "dstab": 6,
+      "dslash": 6,
+      "dcrush": 6,
+      "dmagic": 4,
+      "drange": 6
+    }
   }
 }
