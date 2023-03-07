@@ -87,12 +87,6 @@ public class AttackNpcCheck {
             case 5916:
             case 2045:
                 return true; // Skip "I am already under attack" check
-            case 8781:
-                if (!Boundary.isIn(c, Boundary.DONATOR_ZONE_BOSS)) {
-                    sendCheckMessage(c, sendMessages, "You must be closer to the Queen in order to attack it.");
-                    return false;
-                }
-                break;
             case 4005://dark beast
                 levelRequired = 90;
                 if (!Slayer.hasRequiredLevel(c, levelRequired)) {
