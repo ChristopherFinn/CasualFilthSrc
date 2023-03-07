@@ -13,7 +13,7 @@ import io.xeros.util.Misc;
 
 public class Configuration {
 
-	public static final int CLIENT_VERSION = 230;
+	public static final int CLIENT_VERSION = 231;
 	public static String SERVER_NAME = "CasualRSPS";
 	public static final int PORT_DEFAULT = 52777;
 	public static final int PORT_TEST = 43595;
