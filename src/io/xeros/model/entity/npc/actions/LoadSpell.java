@@ -1231,7 +1231,7 @@ public class LoadSpell {
                     player.lastSpear = System.currentTimeMillis();
                     player.getPA().getSpeared(npc.absX, npc.absY, 3);
                     player.freezeTimer = 3;
-                    player.sendMessage("The Queen\'s magic pushes you out of her way.");
+                    player.sendMessage("The Gatekeeper\'s magic pushes you out of her way.");
                 }
                 break;
             case 2054:
