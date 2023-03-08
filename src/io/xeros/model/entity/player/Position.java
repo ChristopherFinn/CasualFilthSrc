@@ -320,7 +320,7 @@ public final class Position {
 				|| Boundary.isIn(this, Boundary.OLM)
 				|| Boundary.isIn(this, Boundary.ICE_DEMON)
 				|| Boundary.isIn(this, Boundary.CATACOMBS)
-				|| Boundary.isIn(this, Boundary.DZ_BOSS)
+				|| Boundary.isIn(this, Boundary.GATEKEEPER)
 				|| Boundary.isIn(this, NightmareConstants.BOUNDARY)
 				|| Boundary.isIn(this, Boundary.OURIANA_ALTAR)
 				|| Boundary.isIn(this, Boundary.BRYOPHYTA_ROOM)

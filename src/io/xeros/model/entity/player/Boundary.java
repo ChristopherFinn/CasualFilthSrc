@@ -347,7 +347,7 @@ public class Boundary {
 	 * Raids bosses
 	 */
 
-	public static final Boundary DZ_BOSS = new Boundary(3722, 2817, 3798, 2833);
+	public static final Boundary GATEKEEPER = new Boundary(2328, 3878, 2308, 3899);
 
 
 	public static final Boundary ALTAR = new Boundary(3223, 3603, 3255, 3633);
