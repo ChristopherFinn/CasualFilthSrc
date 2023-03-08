@@ -72500,6 +72500,7 @@
   description: "An ancient warrior's full helm."
   shopValue: 200000000
   untradeable: false
+  equipmentModelType: "FULL_HELMET"
   requirements:
     - skill: "DEFENCE"
       level: 80
@@ -72508,10 +72509,11 @@
   description: "An ancient warrior's platebody."
   shopValue: 400000000
   untradeable: false
+  equipmentModelType: "FULL_BODY"
   requirements:
     - skill: "DEFENCE"
       level: 80
-- id: 26384
+- id: 26386
   name: "Torva platelegs"
   description: "An ancient warrior's platelegs."
   shopValue: 350000000
