@@ -67895,5 +67895,76 @@
       "dmagic": 4,
       "drange": 6
     }
+  },
+  "26382": {
+    "name": "Torva full helm",
+    "equipable": true,
+    "weight": 2.721,
+    "equipment": {
+      "slot": 0,
+      "amagic": -5,
+      "arange": -5,
+      "dstab": 59,
+      "dslash": 60,
+      "dcrush": 62,
+      "dmagic": -2,
+      "drange": 57,
+      "str": 8,
+      "prayer": 1
+    }
+  },
+  "26384": {
+    "name": "Torva platebody",
+    "equipable": true,
+    "weight": 9.979,
+    "equipment": {
+      "slot": 4,
+      "amagic": -18,
+      "arange": -14,
+      "dstab": 117,
+      "dslash": 111,
+      "dcrush": 117,
+      "dmagic": -11,
+      "drange": 142,
+      "str": 6,
+      "prayer": 1
+    }
+  },
+  "26386": {
+    "name": "Torva platelegs",
+    "equipable": true,
+    "weight": 9.071,
+    "equipment": {
+      "slot": 7,
+      "amagic": -24,
+      "arange": -1,
+      "dstab": 87,
+      "dslash": 78,
+      "dcrush": 79,
+      "dmagic": -9,
+      "drange": 102,
+      "str": 4,
+      "prayer": 1
+    }
+  },
+  "26235": {
+    "name": "Zaryte vambraces",
+    "equipable": true,
+    "weight": 1,
+    "equipment": {
+      "slot": 9,
+      "astab": -8,
+      "aslash": -8,
+      "acrush": -8,
+      "amagic": 0,
+      "arange": 18,
+      "dstab": 8,
+      "dslash": 8,
+      "dcrush": 8,
+      "dmagic": 5,
+      "drange": 8,
+      "rstr": 2,
+      "prayer": 1
+    }
   }
 }

@@ -22348,6 +22348,10 @@ public class Items {
     public static final int VOID_RANGER_HELM_OR = 26_475;
     public static final int VOID_MAGE_HELM_OR = 26_473;
     public static final int VOID_KNIGHT_GLOVES_OR = 26_467;
+    public static final int TORVA_FULL_HELM = 26_382;
+    public static final int TORVA_PLATEBODY = 26_384;
+    public static final int TORVA_PLATELEGS = 26_386;
+    public static final int ZARYTE_VAMBRACES = 26_235;
     public static final int RESOURCE_BOXSMALL = 30_000;
     public static final int RESOURCE_BOXMEDIUM = 30_001;
     public static final int RESOURCE_BOXLARGE = 30_002;

@@ -1,56 +1,21 @@
 ---
 npc_id: 8781
-common:
+rare:
   accessibility: 1000
   items:
-  - name: "coins"
+  - name: "Torva full helm"
     minimum: 1
     maximum: 1
-  - name: "wrath rune"
+  - name: "Torva platebody"
     minimum: 1
     maximum: 1
-  - name: "chaos rune"
+  - name: "Torva platelegs"
     minimum: 1
     maximum: 1
-  - name: "dragon bones noted"
+  - name: "Zaryte crossbow"
     minimum: 1
     maximum: 1
-uncommon:
-  accessibility: 4000
-  items:
-  - name: "runite ore"
+  - name: "Zaryte vambraces"
     minimum: 1
     maximum: 1
-  - name: "magic logs"
-    minimum: 1
-    maximum: 1
-  - name: "shark"
-    minimum: 1
-    maximum: 1
-  - name: "grimy ranarr weed"
-    minimum: 1
-    maximum: 1
-rare:
-  accessibility: 4000
-  items:
-  - name: "dark infinity hat"
-    minimum: 1
-    maximum: 1
-  - name: "dark infinity top"
-    minimum: 1
-    maximum: 1
-  - name: "dark infinity bottoms"
-    minimum: 1
-    maximum: 1
-  - name: "light infinity hat"
-    minimum: 1
-    maximum: 1
-  - name: "light infinity top"
-    minimum: 1
-    maximum: 1
-  - name: "light infinity bottoms"
-    minimum: 1
-    maximum: 1
-  - name: "imbue dust"
-    minimum: 1
-    maximum: 1
+

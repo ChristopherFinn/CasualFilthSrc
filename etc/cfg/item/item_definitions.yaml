@@ -72495,3 +72495,36 @@
       level: 42
     - skill: "MAGIC"
       level: 42
+- id: 26382
+  name: "Torva full helm"
+  description: "An ancient warrior's full helm."
+  shopValue: 200000000
+  untradeable: false
+  requirements:
+    - skill: "DEFENCE"
+      level: 80
+- id: 26384
+  name: "Torva platebody"
+  description: "An ancient warrior's platebody."
+  shopValue: 400000000
+  untradeable: false
+  requirements:
+    - skill: "DEFENCE"
+      level: 80
+- id: 26384
+  name: "Torva platelegs"
+  description: "An ancient warrior's platelegs."
+  shopValue: 350000000
+  untradeable: false
+  requirements:
+    - skill: "DEFENCE"
+      level: 80
+- id: 26235
+  name: "Zaryte vambraces"
+  description: "A pair of ancient vambraces."
+  shopValue: 180000000
+  requirements:
+    - skill: "DEFENCE"
+      level: 45
+    - skill: "RANGED"
+      level: 80
