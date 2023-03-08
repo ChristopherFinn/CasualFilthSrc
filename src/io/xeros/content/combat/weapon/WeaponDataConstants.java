@@ -136,7 +136,7 @@ public class WeaponDataConstants {
             //Crossbows
             Items.CROSSBOW, Items.BRONZE_CROSSBOW, Items.IRON_CROSSBOW, Items.STEEL_CROSSBOW,  Items.MITH_CROSSBOW, Items.ADAMANT_CROSSBOW,
             Items.RUNE_CROSSBOW, Items.DRAGON_CROSSBOW, Items.ARMADYL_CROSSBOW,  Items.KARILS_CROSSBOW,
-            Items.BLURITE_CROSSBOW,
+            Items.BLURITE_CROSSBOW, Items.ZARYTE_CROSSBOW,
             //Special Crossbows
             Items.PHOENIX_CROSSBOW, Items.LIGHT_BALLISTA, Items.HEAVY_BALLISTA, Items.DRAGON_HUNTER_CROSSBOW, Items.DORGESHUUN_CROSSBOW, Items.HUNTERS_CROSSBOW,
             //Shortbows
