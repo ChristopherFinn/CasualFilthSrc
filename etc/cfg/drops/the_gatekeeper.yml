@@ -7,19 +7,19 @@ constant:
       minimum: 1
       maximum: 1
 common:
-  accessibility: 1
+  accessibility: 2
   items:
     - name: "shark"
       minimum: 1
       maximum: 3
     - name: "saradomin brew4"
       minimum: 1
-      maximum: 3
+      maximum: 1
     - name: "super restore4"
       minimum: 1
-      maximum: 3
+      maximum: 1
 uncommon:
-  accessibility: 2
+  accessibility: 3
   items:
     - name: "death rune"
       minimum: 75

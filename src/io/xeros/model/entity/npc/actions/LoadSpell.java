@@ -1217,11 +1217,16 @@ public class LoadSpell {
                 break;
             case 8781:
                 int r100 = Misc.random(100);
-                if (r100 <= 95) {
-                    npc.setAttackType(CombatType.MAGE);
-                    npc.startAnimation(-1);
+                if (r100 >= 0 && r100 <=44) {
+                    npc.setAttackType(CombatType.MAGE); //Gatekeeper Mage Attack
+                    npc.startAnimation(45); //TEST ANIMATION, NOT FINAL - 3/9/2023
                     npc.projectileId = 1380;
                     npc.endGfx = 367;
+                } else if (r100 >= 45 && r100 <=95) {
+                    npc.setAttackType(CombatType.RANGE); //Gatekeeper Range Attack
+                    npc.projectileId = 500;
+                    npc.startAnimation(-1);
+                    npc.endGfx = 500;
                 } else {
                     npc.setAttackType(CombatType.SPECIAL);
                     npc.projectileId = 395;
