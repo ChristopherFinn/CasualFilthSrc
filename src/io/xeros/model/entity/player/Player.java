@@ -676,6 +676,8 @@ public class Player extends Entity {
     public int bossPoints;
     public boolean bossPointsRefund;
     public int achievementPoints;
+
+    public int keeperDamage;
     public int raidPoints;
     public int votePoints;
     public int bloodPoints;
@@ -836,7 +838,7 @@ public class Player extends Entity {
     public int[] counters = new int[20];
     public int[] raidsDamageCounters = new int[15];
 
-    public int[] GateKeeperCounter = new int[1]; //idk why we would put it in in raidsCounters but I hope I don't break nothing loool
+    public int[] gateKeeperCounter = new int[1];
 
     public boolean[] maxCape = new boolean[5];
     public int[][] playerSkillProp = new int[20][15];
@@ -4705,11 +4707,11 @@ public class Player extends Entity {
      * Topher please use this as an example and never delete this note, thank you.
      */
     public int getGateKeeperDamageCounter() {
-        return GateKeeperCounter[0];
+        return raidsDamageCounters[18];
     }
 
     public void setGateKeeperDamageCounter(int damage) {
-        this.GateKeeperCounter[0] = damage;
+        this.raidsDamageCounters[18] = damage;
     }
 
     public int getHesporiDamageCounter() {
