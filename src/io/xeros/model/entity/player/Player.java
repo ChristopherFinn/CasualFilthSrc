@@ -4707,11 +4707,11 @@ public class Player extends Entity {
      * Topher please use this as an example and never delete this note, thank you.
      */
     public int getGateKeeperDamageCounter() {
-        return raidsDamageCounters[18];
+        return gateKeeperCounter[0];
     }
 
     public void setGateKeeperDamageCounter(int damage) {
-        this.raidsDamageCounters[18] = damage;
+        this.gateKeeperCounter[0] = damage;
     }
 
     public int getHesporiDamageCounter() {

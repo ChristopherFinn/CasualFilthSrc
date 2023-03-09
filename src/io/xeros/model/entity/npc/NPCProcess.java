@@ -503,17 +503,16 @@ public class NPCProcess {
             } else if (npc.actionTimer == 0 && npc.applyDead && !npc.needRespawn) {
                 int killerIndex = npc.killedBy;
                 if (npc.getNpcId() == 8781) {
-                    if (playerOwner.getGateKeeperDamageCounter() >= 20) {
-                        // if (playerOwner.keeperDamage >= 20) {
-                        System.out.println("KEEPER LOOT - LUV BUU"); // Remove after testing
-                        PlayerHandler.nonNullStream().filter(p -> Boundary.isIn(p, Boundary.GATEKEEPER))
-                            .forEach(plr -> {
-                                System.err.println("giving loot to " + plr.getDisplayName());
-                            NPCDeath.dropItemsFor(npc, plr, npc.getNpcId());
-                            //    playerOwner.keeperDamage = 0;
-
+                        // if (playerOwner.keeperDamage >= 20) { // this is probably about to be useless and deleted
+                        System.out.println("KEEPER LOOT - LUV BUU"); // System outprint
+                        PlayerHandler.nonNullStream().filter(p -> Boundary.isIn(p, Boundary.GATEKEEPER)) // Give to every player inside of boundary
+                            .forEach(plr -> { // continuation of line above basically, i mean it says it means
+                                if (playerOwner.getGateKeeperDamageCounter() >= 20) { // this is the damage counter I made, however, i never made anything in the server SET the damage to even get, so its trying to pull it but it dont exist
+                                    System.err.println("giving loot to " + plr.getDisplayName()); // outprint of who gets loot
+                                    NPCDeath.dropItemsFor(npc, plr, npc.getNpcId()); // Npc drops method
+                                    //    playerOwner.keeperDamage = 0; //probably being deleted
+                                }
                             });
-                }
                 }
                 NPCDeath.dropItems(npc);
 

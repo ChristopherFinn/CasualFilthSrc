@@ -99,7 +99,9 @@ public class HitExecutorNpc extends HitExecutor {
                 attacker.setGlodDamageCounter(attacker.getGlodDamageCounter() + damage.getAmount());
                 NPCHandler.glodAttack = "MAGIC";
                 break;
-
+            case 8781: // The Gatekeeper
+                attacker.setGateKeeperDamageCounter(attacker.getGateKeeperDamageCounter() + damage.getAmount()); // sets the gatekeeper to damage; Current Gatekeeperdmg + damage dealt = GateKeeperDamageCounter
+                break;
             case FragmentOfSeren.NPC_ID: //Fragement of Seren
                 attacker.setIceQueenDamageCounter(attacker.getIceQueenDamageCounter() + damage.getAmount());
                 FragmentOfSeren.handleSpecialAttack(attacker);
