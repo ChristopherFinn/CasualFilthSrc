@@ -42,7 +42,7 @@ uncommon:
     - name: "water rune"
       minimum: 150
       maximum: 1365
-    - name: "dragon bolt"
+    - name: "dragon bolts"
       minimum: 50
       maximum: 80
     - name: "crushed nest noted"
