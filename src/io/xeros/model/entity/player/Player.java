@@ -835,6 +835,9 @@ public class Player extends Entity {
     public int[] playerItemsN = new int[28];
     public int[] counters = new int[20];
     public int[] raidsDamageCounters = new int[15];
+
+    public int[] GateKeeperCounter = new int[1]; //idk why we would put it in in raidsCounters but I hope I don't break nothing loool
+
     public boolean[] maxCape = new boolean[5];
     public int[][] playerSkillProp = new int[20][15];
     public boolean receivedStarter;
@@ -4695,6 +4698,18 @@ public class Player extends Entity {
 
     public void setGlodDamageCounter(int damage) {
         this.raidsDamageCounters[9] = damage;
+    }
+
+    /**
+     * Gatekeeper damage tracker (Non-Visble)
+     * Topher please use this as an example and never delete this note, thank you.
+     */
+    public int getGateKeeperDamageCounter() {
+        return GateKeeperCounter[0];
+    }
+
+    public void setGateKeeperDamageCounter(int damage) {
+        this.GateKeeperCounter[0] = damage;
     }
 
     public int getHesporiDamageCounter() {

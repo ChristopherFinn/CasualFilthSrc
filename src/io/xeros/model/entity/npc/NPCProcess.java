@@ -502,6 +502,16 @@ public class NPCProcess {
                 }
             } else if (npc.actionTimer == 0 && npc.applyDead && !npc.needRespawn) {
                 int killerIndex = npc.killedBy;
+                if (npc.getNpcId() == 8781) {
+                    if (playerOwner.getGateKeeperDamageCounter() >= 20) {
+                        System.out.println("KEEPER LOOT - LUV BUU"); // Remove after testing
+                        PlayerHandler.nonNullStream().filter(p -> Boundary.isIn(p, Boundary.GATEKEEPER))
+                            .forEach(plr -> {
+                                System.err.println("giving loot to " + plr.getDisplayName());
+                                NPCDeath.dropItemsFor(npc, plr, npc.getNpcId());
+                            });
+                }
+                }
                 NPCDeath.dropItems(npc);
 
                 npc.onDeath();
