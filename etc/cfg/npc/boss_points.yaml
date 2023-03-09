@@ -47,6 +47,8 @@
   points: 7
 - name: barrelchest
   points: 3
+- name: the gatekeeper
+  points: 10
 
 # Dag kings
 - name: dagannoth rex

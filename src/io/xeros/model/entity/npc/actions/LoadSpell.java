@@ -1216,8 +1216,8 @@ public class LoadSpell {
                 npc.projectileId = 27;
                 break;
             case 8781:
-                int r10 = Misc.random(10);
-                if (r10 <= 9) {
+                int r100 = Misc.random(100);
+                if (r100 <= 95) {
                     npc.setAttackType(CombatType.MAGE);
                     npc.startAnimation(-1);
                     npc.projectileId = 1380;
@@ -1226,12 +1226,10 @@ public class LoadSpell {
                     npc.setAttackType(CombatType.SPECIAL);
                     npc.projectileId = 395;
                     npc.startAnimation(-1);
-                    npc.endGfx = 555;
+                    npc.endGfx = 369; //Changed from 555
                     player.gfx0(437);
-                    player.lastSpear = System.currentTimeMillis();
-                    player.getPA().getSpeared(npc.absX, npc.absY, 3);
-                    player.freezeTimer = 3;
-                    player.sendMessage("The Gatekeeper\'s magic pushes you out of her way.");
+                    player.freezeTimer = 2;
+                    player.sendMessage("The Gatekeeper freezes you in place!");
                 }
                 break;
             case 2054:

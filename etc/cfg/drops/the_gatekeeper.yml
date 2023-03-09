@@ -1,7 +1,7 @@
 ---
 npc_id: 8781
 rare:
-  accessibility: 500
+  accessibility: 250
   items:
   - name: "Torva full helm"
     minimum: 1
