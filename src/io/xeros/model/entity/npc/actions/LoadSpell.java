@@ -1221,13 +1221,12 @@ public class LoadSpell {
                     npc.setAttackType(CombatType.MAGE);
                     npc.startAnimation(-1);
                     npc.projectileId = 1380;
-                    npc.endGfx = 431;
+                    npc.endGfx = 367;
                 } else {
                     npc.setAttackType(CombatType.SPECIAL);
                     npc.projectileId = 395;
                     npc.startAnimation(-1);
                     npc.endGfx = 369; //Changed from 555
-                    player.gfx0(437);
                     player.freezeTimer = 2;
                     player.sendMessage("The Gatekeeper freezes you in place!");
                 }
