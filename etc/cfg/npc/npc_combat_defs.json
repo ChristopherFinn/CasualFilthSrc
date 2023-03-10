@@ -106043,4 +106043,38 @@
       "MAGIC_BONUS": 0,
       "CRUSH_BONUS": 50
     }
+  },
+  {
+    "id": 8781,
+    "attackSpeed": 5,
+    "attackStyle": "Magic",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 350,
+      "ATTACK": 350,
+      "DEFENCE": 350,
+      "RANGE": 350,
+      "STRENGTH": 350,
+      "HITPOINTS": 1000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 0,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
   }]

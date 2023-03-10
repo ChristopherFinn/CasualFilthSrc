@@ -1577,7 +1577,7 @@ public class NPCHandler {
         case 2054: 
             return 85;
         case 8781: 
-            return 75;
+            return 100; //Gatekeeper Projectile Speed - was 75 - 3/9/2023
         case 3127: 
         case InfernoWaveData.JALTOK_JAD: 
         case 7617: 
