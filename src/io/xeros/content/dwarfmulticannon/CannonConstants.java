@@ -106,6 +106,8 @@ public class CannonConstants {
             CANNON_JAD,
             //INFERNO
             INFERNO,
+            //GATEKEEPER
+            GATEKEEPER,
             //CERBERUS
             CERBERUS_ROOM_NORTH, CERBERUS_ROOM_WEST, CERBERUS_ROOM_EAST,
             //CATACOMBS

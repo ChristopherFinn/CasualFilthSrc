@@ -106071,10 +106071,10 @@
       "RANGE_STRENGTH_BONUS": 0
     },
     "defensiveBonuses": {
-      "SLASH_BONUS": 200,
-      "STAB_BONUS": 200,
-      "RANGE_BONUS": 200,
-      "MAGIC_BONUS": 200,
-      "CRUSH_BONUS": 200
+      "SLASH_BONUS": 50,
+      "STAB_BONUS": 50,
+      "RANGE_BONUS": 50,
+      "MAGIC_BONUS": 50,
+      "CRUSH_BONUS": 50
     }
   }]
