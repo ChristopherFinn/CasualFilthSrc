@@ -1158,7 +1158,7 @@ public class Smithing {
 				}
 				
 				/**
-				 * Chance of saving a bar while wearing herblore or max cape
+				 * Chance of saving a bar while wearing smithing or max cape
 				 */
 				if (SkillcapePerks.SMITHING.isWearing(c) || SkillcapePerks.isWearingMaxCape(c)) {
 					if (Misc.random(4) == 2) {
@@ -1185,7 +1185,7 @@ public class Smithing {
 								if (ItemAssistant.getItemName(toadd).contains("knife")) {
 									c.getItems().addItem(toadd, 5);
 								} else {
-									if (ItemAssistant.getItemName(toadd).contains("cannon")) {
+									if (ItemAssistant.getItemName(toadd).contains("cannonball")) {
 										c.getItems().addItem(toadd, 4);
 									} else {
 										c.getItems().addItem(toadd, 1);
