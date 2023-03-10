@@ -1218,16 +1218,19 @@ public class LoadSpell {
             case 8781:
                 int r100 = Misc.random(100);
                 if (r100 >= 0 && r100 <=44) {
+                    npc.forceChat("Celestiax!");
                     npc.setAttackType(CombatType.MAGE); //Gatekeeper Mage Attack
-                    npc.startAnimation(45); //TEST ANIMATION, NOT FINAL - 3/9/2023
+                    npc.startAnimation(-1);
                     npc.projectileId = 1380;
                     npc.endGfx = 367;
                 } else if (r100 >= 45 && r100 <=95) {
+                    npc.forceChat("Transfix!");
                     npc.setAttackType(CombatType.RANGE); //Gatekeeper Range Attack
                     npc.projectileId = 500;
                     npc.startAnimation(-1);
                     npc.endGfx = 500;
                 } else {
+                    npc.forceChat("Iglocarcer!");
                     npc.setAttackType(CombatType.SPECIAL);
                     npc.projectileId = 395;
                     npc.startAnimation(-1);

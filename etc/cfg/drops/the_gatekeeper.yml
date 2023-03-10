@@ -32,7 +32,7 @@ uncommon:
       maximum: 325
     - name: "cannonball"
       minimum: 125
-      maximum: 325
+      maximum: 500
     - name: "air rune"
       minimum: 150
       maximum: 1365
@@ -44,7 +44,7 @@ uncommon:
       maximum: 1365
     - name: "dragon bolts"
       minimum: 50
-      maximum: 80
+      maximum: 100
     - name: "crushed nest noted"
       minimum: 25
       maximum: 50
