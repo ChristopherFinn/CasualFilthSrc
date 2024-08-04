@@ -1505,9 +1505,9 @@
   shopValue: 495000
   untradeable: true
 - id: 278
-  name: "Cattleprod"
-  description: "A sharp cattleprod."
-  shopValue: 3
+  name: "Spikey Sword"
+  description: "A really spikey sword."
+  shopValue: 200000
 - id: 33046
   name: "Smithing 200M Cape"
   description: "A cape worn by those who've overachieved."

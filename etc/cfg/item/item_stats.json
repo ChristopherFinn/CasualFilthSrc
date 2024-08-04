@@ -732,19 +732,16 @@
     "weight": 0.028
   },
   "278": {
-    "name": "Cattleprod",
-    "quest": true,
+    "name": "Spikey Sword",
     "equipable": true,
-    "weight": 0.453,
+    "weight": 1.5,
     "equipment": {
       "slot": 3,
-      "astab": 4,
-      "aslash": 2,
-      "acrush": -4,
-      "amagic": 1,
-      "dmagic": 1,
-      "str": 3,
-      "aspeed": 4
+      "astab": 100,
+      "aslash": 100,
+      "acrush": 25,
+      "str": 200,
+      "aspeed": 2
     }
   },
   "279": {
