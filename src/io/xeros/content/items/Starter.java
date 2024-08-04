@@ -81,7 +81,7 @@ public class Starter {
 
     public static void addStarterItems(Player c) {
         if (Server.getConfiguration().getServerState().isOpenSpawning()) {
-            testingStarter(c);
+            standardStarter(c);
         } else {
             standardStarter(c);
         }

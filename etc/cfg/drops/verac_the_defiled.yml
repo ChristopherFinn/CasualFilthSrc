@@ -1,7 +1,7 @@
 ---
 npc_id: 1677
 common:
-  accessibility: 7
+  accessibility: 3
   items:
   - name: "coins"
     minimum: 10000
@@ -16,7 +16,7 @@ common:
     minimum: 100
     maximum: 250
 rare:
-  accessibility: 40 #Changed from 50 to 40 - 2/26/2023 - Chris
+  accessibility: 25 #Changed from 40 > 25 - Chris
   items:
   - name: "veracs flail"
     minimum: 1

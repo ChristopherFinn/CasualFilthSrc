@@ -85,7 +85,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 105
+  accessibility: 60 #Changed from 105 > 60 - Chris
   items:
   - name: "zenyte"
     minimum: 1

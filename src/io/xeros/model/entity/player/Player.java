@@ -1984,10 +1984,10 @@ public class Player extends Entity {
             Server.clanManager.getHelpClan().addMember(this);
 
             if (Server.isDebug() && !bot) {
-                getRights().add(Right.ADMINISTRATOR);
-                getRights().add(Right.OWNER);
-                getRights().add(Right.ONYX_CLUB);
-                getRights().setPrimary(Right.OWNER);
+//                getRights().add(Right.ADMINISTRATOR);
+//                getRights().add(Right.OWNER);
+//                getRights().add(Right.ONYX_CLUB);
+//                getRights().setPrimary(Right.OWNER);
             }
 
             getRights().remove(Right.IRONMAN);

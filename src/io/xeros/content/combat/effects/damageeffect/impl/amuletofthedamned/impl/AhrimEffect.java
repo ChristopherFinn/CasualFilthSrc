@@ -20,7 +20,8 @@ public class AhrimEffect implements AmuletOfTheDamnedEffect {
 
     @Override
     public boolean hasExtraRequirement(Player player) {
-        return EquipmentSet.AHRIM.isWearingBarrows(player);
+        return EquipmentSet.AHRIM.isWearingBarrows(player)
+                && Misc.isLucky(25);
     }
 
     @Override

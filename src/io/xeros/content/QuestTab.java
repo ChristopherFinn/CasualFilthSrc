@@ -68,7 +68,7 @@ public class QuestTab {
         CALL_FOR_HELP
     }
 
-    private static final int[] COIN_TAB_BUTTONS = {74107, 74112, 74117, 74122, 74127, 74132, 74137, 74142, 74147, 74152, 74157, 74162};
+    private static final int[] COIN_TAB_BUTTONS = {74107, 74112, 74117, 74122, 74127, 74132, 74137, 74142};
 
     public static final int INTERFACE_ID = 50414;
     private static final int CONFIG_ID = 1355;

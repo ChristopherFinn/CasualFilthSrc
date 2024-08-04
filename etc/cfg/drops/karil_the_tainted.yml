@@ -1,16 +1,25 @@
 ---
 npc_id: 1675
 common:
-  accessibility: 4
+  accessibility: 3
   items:
   - name: "coins"
     minimum: 10000
     maximum: 60000
   - name: "bolt rack"
-    minimum: 50
-    maximum: 200
+    minimum: 25
+    maximum: 300
+  - name: "blood rune"
+    minimum: 100
+    maximum: 250
+  - name: "death rune"
+    minimum: 100
+    maximum: 250
+  - name: "chaos rune"
+    minimum: 100
+    maximum: 250
 rare:
-  accessibility: 40
+  accessibility: 25 #Changed from 40 > 25 - Chris
   items:
   - name: "karils coif"
     minimum: 1

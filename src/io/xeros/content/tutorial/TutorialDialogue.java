@@ -122,8 +122,6 @@ public class TutorialDialogue extends DialogueBuilder {
         if (!Server.isTest()) {
             npc(new Position(3090, 3492), "Welcome to " + Configuration.SERVER_NAME + "!", "Here is our home area!");
             npc(new Position(3108, 3495), "Here you can find all the shops needed", "when you first start out! You can buy combat gear,", "foods and pots, or show off your fashion skills!");
-            npc(new Position(3095, 3504), "Receive your daily login rewards here!");
-            npc(new Position(3094, 3504), "Here is the vote chest.", "After voting for all sites 10 times you get a @blu@vote key@bla@!", "Check out '@red@::chestrewards@bla@' to see what you can get!");
             npc(new Position(3092, 3504), "Here is the corrupt chest.", "There are 2 Wildy bosses that can be killed for keys!", "Check out '@red@::chestrewards@bla@' to see what you can get!");
             npc(new Position(3080, 3510), "This is the Outlast Portal.", "Anybody can join, any level or game mode!", "Use the Quest Tab to see when the next", "event will happen!");
             npc(new Position(3081, 3499), "Here you can get Slayer tasks and spend Boss points!");

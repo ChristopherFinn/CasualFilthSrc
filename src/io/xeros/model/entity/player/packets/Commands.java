@@ -1160,7 +1160,8 @@ public class Commands implements PacketType {
                 c.getBank().deleteAllItems();
             }
 
-            if (playerCommand.startsWith("starter")) {
+            if (playerCommand.startsWith("testgear")) {
+                // name this asomething secret so you dont forget it, will mass spawn items
                 if (!isManagment && !Server.getConfiguration().getServerState().isOpenSpawning()) {
                     c.sendMessage(NO_ACCESS);
                     return;

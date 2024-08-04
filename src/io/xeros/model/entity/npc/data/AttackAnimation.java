@@ -963,7 +963,7 @@ public class AttackAnimation extends NPCHandler {
 			return 2854;
 
 		case 2267: // rex
-			return 2851;
+			return 2853; //Changed from 2851 > 2853 - Chris
 
 		case 6342:
 			int test = Misc.random(2);

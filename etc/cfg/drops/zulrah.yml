@@ -79,7 +79,7 @@ uncommon:
     minimum: 1
     maximum: 1
 rare:
-  accessibility: 120
+  accessibility: 80 #Changed from 120 > 80 - Chris
   items:
   - name: "tanzanite fang"
     minimum: 1
