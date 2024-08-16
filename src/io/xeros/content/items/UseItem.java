@@ -708,7 +708,8 @@ public class UseItem {
 		case 590:
 			Firemaking.lightFire(c, itemUsed, "tinderbox");
 			break;
-		
+
+
 		case 12773:
 		case 12774:
 			if (itemUsed == 3188) {

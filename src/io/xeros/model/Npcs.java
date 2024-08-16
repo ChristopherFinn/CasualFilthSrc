@@ -7747,6 +7747,7 @@ public class Npcs {
     public static final int NOTERAZZO = 8_692;
     public static final int DIANGO = 8_693;
     public static final int BRIAN_2 = 8_694;
+    public static final int MYSTERIOUS_TRADER = 8_695;
     public static final int MOSOL_REI_2 = 8_696;
     public static final int LEKE_QUO_KERAN = 8_697;
     public static final int MONK_OF_ZAMORAK_9 = 8_698;

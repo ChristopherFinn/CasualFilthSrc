@@ -44,6 +44,10 @@ items:
 - name: "mithril knife"
 - name: "adamant knife"
 - name: "adamant dart"
+- name: "rune dart"
+  price: 1000
+- name: "dragon dart"
+  price: 5000
 - name: "archer helm"
 - name: "amulet of accuracy"
 - name: "avas accumulator"
@@ -60,5 +64,6 @@ items:
 - name: "cannon furnace"
   price: 5000000
 - name: "cannonball"
+  price: 1000
 - id: 11666
   price: 100000000

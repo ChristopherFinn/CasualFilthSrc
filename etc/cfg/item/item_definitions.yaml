@@ -1507,7 +1507,10 @@
 - id: 278
   name: "Spikey Sword"
   description: "A really spikey sword."
-  shopValue: 200000
+  shopValue: 200000000
+  requirements:
+    - skill: "ATTACK"
+      level: 75
 - id: 33046
   name: "Smithing 200M Cape"
   description: "A cape worn by those who've overachieved."
@@ -3600,9 +3603,9 @@
   description: "A rough shaped piece of rock."
   shopValue: 1
 - id: 675
-  name: "Rock pick"
-  description: "A small pick for cracking rock samples."
-  shopValue: 1
+  name: "Osmumten's fang"
+  description: "A deadly sword created long ago."
+  shopValue: 10000000
 - id: 676
   name: "Trowel"
   description: "Used for digging!"

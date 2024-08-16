@@ -102,6 +102,7 @@ public class Firemaking {
 					}
 				}, time[0]);
 
+
 				if (player.getRegionProvider().getClipping(player.getX() - 1, player.getY(), player.heightLevel, -1, 0)) {
 					player.getPA().walkTo(-1, 0);
 				} else if (player.getRegionProvider().getClipping(player.getX() + 1, player.getY(), player.heightLevel, 1, 0)) {

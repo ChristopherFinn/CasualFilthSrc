@@ -328,10 +328,10 @@ public class ObjectOptionOne {
 				c.setRaidsInstance(null);
 				break;
 			case 31623: //making forocious gloves
-				if (c.getItems().playerHasItem(995, 15_000_000) && c.getItems().playerHasItem(22983) && c.getItems().playerHasItem(2347)) {
+				if (c.getItems().playerHasItem(995, 1_500_000) && c.getItems().playerHasItem(22983) && c.getItems().playerHasItem(2347)) {
 					c.startAnimation(898);
 					c.getItems().deleteItem(22983, 1); //leather
-					c.getItems().deleteItem(995, 15_000_000); //coins
+					c.getItems().deleteItem(995, 1_500_000); //coins
 					c.getItems().addItem(22981, 1); //ads forocious gloves
 					c.sendMessage("@red@You have succesfully created forocious gloves.");
 					return;

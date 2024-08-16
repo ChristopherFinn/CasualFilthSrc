@@ -17,8 +17,8 @@ import java.util.Arrays;
  */
 public class MacDialogue extends DialogueBuilder {
 
-    public static final int MAX_CAPE_COST = 10_000_000;
-    public static final int COMPLETIONIST_CAPE_COST = 25_000_000;
+    public static final int MAX_CAPE_COST = 2_277_000;
+    public static final int COMPLETIONIST_CAPE_COST = 4_554_000;
 
     private static final int NPC = Npcs.MAC;
 
@@ -128,7 +128,7 @@ public class MacDialogue extends DialogueBuilder {
         builder.npc("Mebe.");
         builder.player("I'm sure I could make it worth your while.");
         builder.npc("How much?");
-        builder.player("How about 10,000,000 gold?");
+        builder.player("How about 2,277,000 gold?");
         builder.option(
                 "Buy Mac's cape?",
                 new DialogueOption("Yes, pay the man.", plr -> purchase(plr, MAX_CAPE_COST, player.maxRequirements(player),

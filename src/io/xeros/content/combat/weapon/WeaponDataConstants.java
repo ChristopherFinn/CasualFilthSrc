@@ -20,7 +20,7 @@ public class WeaponDataConstants {
             Items.DRAGON_SCIMITAR, Items.DRAGON_SCIMITAR_OR, Items.BRONZE_SCIMITAR, Items.IRON_SCIMITAR,
             Items.STEEL_SCIMITAR, Items.BLACK_SCIMITAR, Items.MITHRIL_SCIMITAR, Items.ADAMANT_SCIMITAR, Items.RUNE_SCIMITAR,
             Items.STARTER_SWORD, Items.CLEAVER, Items.GILDED_SCIMITAR, Items.BRINE_SABRE, Items.ARCLIGHT,
-            Items.MACHETE, // ...
+            Items.MACHETE, Items.SPIKEY_SWORD, // ...
             Items.BLADE_OF_SAELDOR,
 
             // Longswords
@@ -59,7 +59,7 @@ public class WeaponDataConstants {
         // swords
         Items.DRAGON_SWORD, Items.RUNE_SWORD, Items.BRONZE_SWORD, Items.IRON_SWORD, Items.STEEL_SWORD, Items.BLACK_SWORD, Items.MITHRIL_SWORD, Items.ADAMANT_SWORD,
         Items.ANGER_SWORD, Items.TRAINING_SWORD, Items.WOODEN_SWORD, Items.SPORK, Items.RAPIER, Items.GHRAZI_RAPIER, Items.TOKTZ_XIL_AK, Items.LEAF_BLADED_SWORD,
-        Items.WILDERNESS_SWORD_1, Items.WILDERNESS_SWORD_2, Items.WILDERNESS_SWORD_3, Items.WILDERNESS_SWORD_4,
+        Items.WILDERNESS_SWORD_1, Items.WILDERNESS_SWORD_2, Items.WILDERNESS_SWORD_3, Items.WILDERNESS_SWORD_4, Items.OSMUMTENS_FANG,
     };
 
     // [[accurate, crush], [aggressive, crush], [shared, stab], [defensive, crush]]

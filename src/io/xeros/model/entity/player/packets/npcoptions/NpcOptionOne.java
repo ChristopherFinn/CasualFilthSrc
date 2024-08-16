@@ -741,7 +741,9 @@ public class NpcOptionOne {
 		case 1578:
 			player.getShops().openShop(6);
 			break;
-
+		case 1191:
+			player.getShops().openShop(199);
+			break;
 		case 6747:
 			player.getShops().openShop(77);
 			break;
@@ -783,7 +785,7 @@ public class NpcOptionOne {
 			player.getShops().openShop(2);
 			break;
 
-		
+
 
 		/*
 		 * case 198: c.getShops().openSkillCape(); break;

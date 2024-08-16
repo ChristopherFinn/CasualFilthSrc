@@ -57,9 +57,6 @@ uncommon:
   - name: "dragon bolts unf"
     minimum: 55
     maximum: 95
-  - name: "wrath talisman"
-    minimum: 1
-    maximum: 1
   - name: "dragon battleaxe"
     minimum: 1
     maximum: 1
@@ -111,12 +108,6 @@ uncommon:
   - name: "dragonstone noted"
     minimum: 1
     maximum: 3
-  - name: "papaya tree seed"
-    minimum: 1
-    maximum: 1
-  - name: "watermelon seed"
-    minimum: 15
-    maximum: 55
   - name: "ranarr seed"
     minimum: 1
     maximum: 1
@@ -126,33 +117,27 @@ uncommon:
   - name: "torstol seed"
     minimum: 1
     maximum: 1
-  - name: "willow seed"
-    minimum: 1
-    maximum: 1
-  - name: "maple seed"
-    minimum: 1
-    maximum: 1
-  - name: "calquat tree seed"
-    minimum: 1
-    maximum: 1
   - name: "dragon bones noted"
     minimum: 7
     maximum: 28
 rare:
-  accessibility: 750
+  accessibility: 50
   items:
   - name: "dragonbone necklace"
     minimum: 1
     maximum: 1
-  - name: "jar of decay"
+  - name: "vorkaths head"
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 1250
+  accessibility: 100
   items:
   - name: "draconic visage"
     minimum: 1
     maximum: 1
   - name: "skeletal visage"
+    minimum: 1
+    maximum: 1
+  - name: "jar of decay"
     minimum: 1
     maximum: 1

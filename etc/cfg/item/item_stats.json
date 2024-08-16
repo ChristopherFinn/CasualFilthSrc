@@ -2020,8 +2020,19 @@
     "weight": 0.085
   },
   "675": {
-    "name": "Rock pick",
-    "weight": 0.056
+    "name": "Osmumten's fang",
+    "equipable": true,
+    "weight": 1.814,
+    "equipment": {
+      "slot": 3,
+      "astab": 105,
+      "aslash": 75,
+      "acrush": 0,
+      "dslash": 0,
+      "dcrush": 0,
+      "str": 103,
+      "aspeed": 5
+    }
   },
   "676": {
     "name": "Trowel",

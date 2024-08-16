@@ -10,12 +10,7 @@ public class ChargeTrident {
 		this.player = player;
 	}
 	public void seas(String amount) {
-		
-		int price = player.getRechargeItems().hasItem(13129) ? 8000
-				  : player.getRechargeItems().hasItem(13130) ? 6000
-				  : player.getRechargeItems().hasItem(13131) ? 4000
-				  : player.getRechargeItems().hasItem(13132) ? -1 : 10000;
-		
+
 		if (!player.getItems().playerHasItem(11907, 1)) {
 			return;
 		}
@@ -26,10 +21,6 @@ public class ChargeTrident {
 
 		switch (amount) {
 		case "TEN": // Plus 10
-			if (!player.getItems().playerHasItem(995, price)) {
-				player.sendMessage("You need at least "+price+" coins to add 10 charges.");
-				return;
-			}
 			if (!player.getItems().playerHasItem(554, 50)) {
 				player.sendMessage("You need at least 50 fire runes to add 10 charges.");
 				return;
@@ -45,16 +36,11 @@ public class ChargeTrident {
 			player.getItems().deleteItem2(554, 50);
 			player.getItems().deleteItem2(560, 10);
 			player.getItems().deleteItem2(562, 10);
-			player.getItems().deleteItem2(995, price);
 			player.setTridentCharge(player.getTridentCharge() > 2489 ? 2500 : player.getTridentCharge() + 10);
 			player.sendMessage("You successfully added 10 charges to your trident.");
 			break;
 
 		case "HUNDRED": // Plus 100
-			if (!player.getItems().playerHasItem(995, price == -1 ? -1 : price * 10)) {
-				player.sendMessage("You need at least " + price * 10 +" coins to add 100 charges.");
-				return;
-			}
 			if (!player.getItems().playerHasItem(554, 500)) {
 				player.sendMessage("You need at least 500 fire runes to add 100 charges.");
 				return;
@@ -70,7 +56,6 @@ public class ChargeTrident {
 			player.getItems().deleteItem2(554, 500);
 			player.getItems().deleteItem2(560, 100);
 			player.getItems().deleteItem2(562, 100);
-			player.getItems().deleteItem2(995, price == -1 ? -1 : price * 10);
 			player.setTridentCharge(player.getTridentCharge() > 2399 ? 2500 : player.getTridentCharge() + 100);
 			player.sendMessage("You successfully added 100 charges to your trident.");
 			break;
@@ -78,10 +63,6 @@ public class ChargeTrident {
 		case "THOUSAND": // Plus 1000
 			if (player.getTridentCharge() > 1500) {
 				player.sendMessage("Doing this would equal your charges above the maximum, try a lower choice.");
-				return;
-			}
-			if (!player.getItems().playerHasItem(995, price == -1 ? -1 : price * 100)) {
-				player.sendMessage("You need at least " + price * 100 + " coins to add 1000 charges.");
 				return;
 			}
 			if (!player.getItems().playerHasItem(554, 5000)) {
@@ -99,7 +80,6 @@ public class ChargeTrident {
 			player.getItems().deleteItem2(554, 5000);
 			player.getItems().deleteItem2(560, 1000);
 			player.getItems().deleteItem2(562, 1000);
-			player.getItems().deleteItem2(995, price == -1 ? -1 : price * 100);
 			player.setTridentCharge(player.getTridentCharge() > 1499 ? 2500 : player.getTridentCharge() + 1000);
 			player.sendMessage("You successfully added 1,000 charges to your trident.");
 			break;

@@ -154,7 +154,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 200
+  accessibility: 100
   items:
   - name: "hydra leather"
     minimum: 1

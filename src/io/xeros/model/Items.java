@@ -289,7 +289,7 @@ public class Items {
     public static final int KEY = 275;
     public static final int RUBBER_TUBE = 276;
     public static final int OIL_CAN = 277;
-    public static final int CATTLEPROD = 278;
+    public static final int SPIKEY_SWORD = 278;
     public static final int SHEEP_FEED = 279;
     public static final int SHEEP_BONES_1 = 280;
     public static final int SHEEP_BONES_2 = 281;
@@ -659,8 +659,8 @@ public class Items {
     public static final int GREEN_ROBE_BOTTOMS_NOTED = 649;
     public static final int BLUE_ROBE_BOTTOMS = 650;
     public static final int BLUE_ROBE_BOTTOMS_NOTED = 651;
-    public static final int CREAM_ROBE_BOTTOMS = 652;
-    public static final int CREAM_ROBE_BOTTOMS_NOTED = 653;
+    public static final int MASORI_CHAPS = 652;
+    public static final int MASORI_CHAPS_NOTED = 653;
     public static final int TURQUOISE_ROBE_BOTTOMS = 654;
     public static final int TURQUOISE_ROBE_BOTTOMS_NOTED = 655;
     public static final int PINK_HAT = 656;
@@ -682,7 +682,7 @@ public class Items {
     public static final int SPECIAL_CUP = 672;
     public static final int TEDDY = 673;
     public static final int CRACKED_SAMPLE = 674;
-    public static final int ROCK_PICK = 675;
+    public static final int OSMUMTENS_FANG = 675;
     public static final int TROWEL = 676;
     public static final int PANNING_TRAY = 677;
     public static final int PANNING_TRAY_2 = 678;
