@@ -3433,13 +3433,12 @@
   noted: true
   stackable: true
 - id: 642
-  name: "Robe top"
-  description: "The ultimate in gnome design."
-  shopValue: 180
+  name: "Masori body"
+  description: "TFortified armour once worn by a powerful ranger."
+  shopValue: 50000000
   noteId: 643
-  equipmentModelType: "FULL_BODY"
 - id: 643
-  name: "Robe top"
+  name: "Masori body"
   description: "Swap this note at any bank for the equivalent item."
   noteId: 642
   noted: true
@@ -3490,12 +3489,12 @@
   noted: true
   stackable: true
 - id: 652
-  name: "Robe bottoms"
-  description: "Made by Tree Gnomes."
-  shopValue: 180
+  name: "Masori chaps"
+  description: "Fortified armour once worn by a powerful ranger."
+  shopValue: 50000000
   noteId: 653
 - id: 653
-  name: "Robe bottoms"
+  name: "Masori chaps"
   description: "Swap this note at any bank for the equivalent item."
   noteId: 652
   noted: true
@@ -3545,12 +3544,12 @@
   noted: true
   stackable: true
 - id: 662
-  name: "Hat"
-  description: "A silly pointed hat."
-  shopValue: 160
+  name: "Masori mask"
+  description: "A fortified mask once worn by a powerful ranger."
+  shopValue: 50000000
   noteId: 663
 - id: 663
-  name: "Hat"
+  name: "Masori mask"
   description: "Swap this note at any bank for the equivalent item."
   noteId: 662
   noted: true

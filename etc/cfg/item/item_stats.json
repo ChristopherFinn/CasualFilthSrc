@@ -1845,13 +1845,23 @@
     }
   },
   "642": {
-    "name": "Cream robe top",
+    "name": "Masori body",
     "equipable": true,
-    "weight": 0.907,
+    "weight": 10,
     "equipment": {
       "slot": 4,
-      "dslash": 2,
-      "dcrush": 2
+      "astab": 0,
+      "aslash": 0,
+      "acrush": 0,
+      "amagic": -4,
+      "arange": 43,
+      "dstab": 59,
+      "dslash": 52,
+      "dcrush": 64,
+      "dmagic": 74,
+      "drange": 60,
+      "rstr": 4,
+      "prayer": 1
     }
   },
   "644": {
@@ -1895,13 +1905,23 @@
     }
   },
   "652": {
-    "name": "Cream robe bottoms",
+    "name": "Masori chaps",
     "equipable": true,
-    "weight": 0.907,
+    "weight": 8.5,
     "equipment": {
       "slot": 7,
-      "dslash": 2,
-      "dcrush": 2
+      "astab": 0,
+      "aslash": 0,
+      "acrush": 0,
+      "amagic": -2,
+      "arange": 27,
+      "dstab": 35,
+      "dslash": 30,
+      "dcrush": 39,
+      "dmagic": 46,
+      "drange": 37,
+      "rstr": 2,
+      "prayer": 1
     }
   },
   "654": {
@@ -1945,13 +1965,23 @@
     }
   },
   "662": {
-    "name": "Cream hat",
+    "name": "Masori mask",
     "equipable": true,
-    "weight": 0.4,
+    "weight": 1.5,
     "equipment": {
       "slot": 0,
-      "amagic": 3,
-      "dmagic": 3
+      "astab": 0,
+      "aslash": 0,
+      "acrush": 0,
+      "amagic": -1,
+      "arange": 12,
+      "dstab": 8,
+      "dslash": 10,
+      "dcrush": 12,
+      "dmagic": 12,
+      "drange": 9,
+      "rstr": 2,
+      "prayer": 1
     }
   },
   "664": {

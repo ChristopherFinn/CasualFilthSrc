@@ -649,8 +649,8 @@ public class Items {
     public static final int GREEN_ROBE_TOP_NOTED = 639;
     public static final int BLUE_ROBE_TOP = 640;
     public static final int BLUE_ROBE_TOP_NOTED = 641;
-    public static final int CREAM_ROBE_TOP = 642;
-    public static final int CREAM_ROBE_TOP_NOTED = 643;
+    public static final int MASORI_BODY = 642;
+    public static final int MASORI_BODY_NOTED = 643;
     public static final int TURQUOISE_ROBE_TOP = 644;
     public static final int TURQUOISE_ROBE_TOP_NOTED = 645;
     public static final int PINK_ROBE_BOTTOMS = 646;
