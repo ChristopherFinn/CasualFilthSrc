@@ -3437,6 +3437,7 @@
   description: "TFortified armour once worn by a powerful ranger."
   shopValue: 50000000
   noteId: 643
+  equipmentModelType: "FULL_BODY"
 - id: 643
   name: "Masori body"
   description: "Swap this note at any bank for the equivalent item."
@@ -3548,6 +3549,7 @@
   description: "A fortified mask once worn by a powerful ranger."
   shopValue: 50000000
   noteId: 663
+  equipmentModelType: "FULL_MASK"
 - id: 663
   name: "Masori mask"
   description: "Swap this note at any bank for the equivalent item."
@@ -72389,6 +72391,10 @@
       level: 30
     - skill: "MAGIC"
       level: 30
+- id: 24780
+  name: "Amulet of blood fury"
+  description: "A very powerful onyx amulet, imbued with blood magic."
+  shopValue: 12000000
 - id: 26374
   name: "Zaryte Crossbow"
   description: "A weapon born out of conflict."

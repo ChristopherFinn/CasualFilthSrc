@@ -785,7 +785,7 @@ public class AttackEntity {
                 return false;
             }
 
-            if (attacker.playerEquipment[Player.playerWeapon] == 9185 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 11785 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21012 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21902 && !attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 26374 && !attacker.getCombatItems().properBolts()) {
+            if (attacker.playerEquipment[Player.playerWeapon] == 9185 && attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 11785 && attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21012 && attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21902 && attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 26374 && attacker.getCombatItems().properBolts()) {
                 attacker.sendMessage("You must use bolts with a crossbow.");
                 return false;
             }

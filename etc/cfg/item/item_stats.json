@@ -67808,6 +67808,25 @@
       "slot": 0
     }
   },
+  "24780": {
+    "name": "Amulet of blood fury",
+    "equipable": true,
+    "equipment": {
+      "slot": 2,
+      "astab": 10,
+      "aslash": 10,
+      "acrush": 10,
+      "amagic": 10,
+      "arange": 10,
+      "dstab": 15,
+      "dslash": 15,
+      "dcrush": 15,
+      "dmagic": 15,
+      "drange": 15,
+      "str": 8,
+      "prayer": 5
+    }
+  },
   "33056": {
     "name": "Completionist cape",
     "equipable": true,

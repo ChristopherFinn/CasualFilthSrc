@@ -6,5 +6,7 @@ items:
   price: 1000
 - name: "bolt rack"
   price: 1000
+- name: "black chinchompa"
+  price: 500
 
 

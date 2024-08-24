@@ -70,7 +70,7 @@ uncommon:
     minimum: 3
     maximum: 3
 rare:
-  accessibility: 150
+  accessibility: 75
   items:
   - name: "dragon pickaxe"
     minimum: 1
@@ -79,7 +79,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 1000
+  accessibility: 150
   items:
   - name: "draconic visage"
     minimum: 1
