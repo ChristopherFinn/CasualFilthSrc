@@ -10,12 +10,7 @@ import io.xeros.util.discord.Discord;
 public class Censor {
 
     private static final List<String> CENSORED = Lists.newArrayList(
-            "wisdomrsps", "vengeanceps",  "redemptionrsps", "ikov", "zaros",
-            "nigger", "nigga", "niger", "niggr", "nigr", "niggar", "niggas", "niggers", "nggr", 
-            "pedophile", "pedofile",
-            "retard", "rtard",
-            "autistic", "autist",
-            "fagot", "faggot", "fag"
+            "wisdomrsps", "vengeanceps",  "redemptionrsps", "ikov", "zaros", "xenos"
     );
 
     public static boolean isCensoredName(String name) {

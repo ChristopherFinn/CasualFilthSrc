@@ -145,7 +145,7 @@ public class WeaponDataConstants {
             Items.LONGBOW, Items.OAK_LONGBOW, Items.WILLOW_LONGBOW, Items.MAPLE_LONGBOW, Items.YEW_LONGBOW, Items.MAGIC_LONGBOW,
             //Special Bows
             Items.CURSED_GOBLIN_BOW, Items.TRAINING_BOW, Items.OGRE_BOW, Items.DARK_BOW, Items.CRYSTAL_BOW, Items.TWISTED_BOW, Items.CRAWS_BOW,
-            Items.DARK_BOW_BLUE, Items.DARK_BOW_GREEN,Items.DARK_BOW_YELLOW,Items.DARK_BOW_WHITE, Items.THIRD_AGE_BOW,
+            Items.DARK_BOW_BLUE, Items.DARK_BOW_GREEN,Items.DARK_BOW_YELLOW,Items.DARK_BOW_WHITE, Items.THIRD_AGE_BOW, Items.BOW_OF_FAERDHINEN,
 
             // Crystal bows
             412, 4213, 4214, 4215, 4216, 4217, 4218, 4219, 4220, 4221, 4222, 4223,

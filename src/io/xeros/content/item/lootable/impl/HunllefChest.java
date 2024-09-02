@@ -73,6 +73,7 @@ public class HunllefChest implements Lootable {
                 ));
 
         items.put(LootRarity.RARE, Arrays.asList(
+                new GameItem(25865, 1), //BOFA
                 new GameItem(23975, 1), //crystal body-----------------------------2
                 new GameItem(23971, 1), //crystal helm
                 new GameItem(23979, 1), //crystal legs
@@ -107,7 +108,7 @@ public class HunllefChest implements Lootable {
 
     private static GameItem commonChestRewards() {
 
-        List<GameItem> itemList = randomNumber() < 850 ? items.get(LootRarity.COMMON) : items.get(LootRarity.COMMON);
+        List<GameItem> itemList = randomNumber() < 700 ? items.get(LootRarity.COMMON) : items.get(LootRarity.COMMON);
         return Misc.getRandomItem(itemList);
 
     }

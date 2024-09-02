@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import io.xeros.Configuration;
 import io.xeros.Server;
 import io.xeros.content.bosses.CorporealBeast;
+import io.xeros.content.bosses.godwars.Godwars;
 import io.xeros.content.bosses.Scorpia;
 import io.xeros.content.bosses.Skotizo;
 import io.xeros.content.bosses.Vorkath;
@@ -35,10 +36,18 @@ import io.xeros.model.world.objects.GlobalObject;
 import io.xeros.util.Misc;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.Arrays;
 
 public class NPCProcess {
 
     private static final Logger logger = LoggerFactory.getLogger(NPCProcess.class);
+    // Define a set of NPCS that should have drops for groups
+    private static final Set<Integer> SPECIAL_NPC_IDS = new HashSet<>(Set.of(8781, 2215, 2216, 2217, 2218)); // Add more NPC IDs here
+    // Define a set of boundaries where the loot logic should apply
+    private static final Set<Boundary> SPECIAL_BOUNDARIES = new HashSet<>(Set.of(Boundary.GATEKEEPER, Boundary.GODWARS_BANDOS_ROOM, Boundary.GODWARS_ARMADYL_ROOM, Boundary.GODWARS_SARA_ROOM, Boundary.GODWARS_ZAMMY_ROOM)); // Add more boundaries here
+
 
     private final NPCHandler npcHandler;
 
@@ -500,14 +509,19 @@ public class NPCProcess {
 
                     npcHandler.resetPlayersInCombat(i);
                 }
-            } else if (npc.actionTimer == 0 && npc.applyDead && !npc.needRespawn) {
+
+            } else  if (npc.actionTimer == 0 && npc.applyDead && !npc.needRespawn) {
                 int killerIndex = npc.killedBy;
-                if (npc.getNpcId() == 8781) {
+                // Check if the NPC ID is in the set of special NPCs
+                if (SPECIAL_NPC_IDS.contains(npc.getNpcId())) {
                     System.out.println("KEEPER LOOT - LUV BUU"); // System outprint
-                    PlayerHandler.nonNullStream().filter(p -> Boundary.isIn(p, Boundary.GATEKEEPER)) // Give to every player inside of boundary
-                            .forEach(plr -> { // continuation of line above basically, i mean it says it means
+
+                    // Filter players who are in any of the special boundaries
+                    PlayerHandler.nonNullStream()
+                            .filter(p -> SPECIAL_BOUNDARIES.stream().anyMatch(boundary -> Boundary.isIn(p, boundary)))
+                            .forEach(plr -> {
                                 System.err.println("giving loot to " + plr.getDisplayName()); // outprint of who gets loot
-                                NPCDeath.dropItemsFor(npc, plr, npc.getNpcId()); // Npc drops method
+                                NPCDeath.dropItemsFor(npc, plr, npc.getNpcId()); // NPC drops method
                             });
                 }
                 NPCDeath.dropItems(npc);

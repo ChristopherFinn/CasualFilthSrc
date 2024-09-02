@@ -175,6 +175,16 @@ public abstract class HitDispatcher {
                 }
             }
 
+// Check if damage is greater than 0 and the attacker is wearing the Amulet of Blood Fury
+            if (damage > 0 && EquipmentSet.AMULET_OF_BLOOD_FURY.isWearing(attacker)) {
+                // Check for a 1 in 4 chance
+                if (Misc.trueRand(3) == 1) {
+                    // Increase the attacker's health by one-third of the damage
+                    attacker.getHealth().increase(damage / 3);
+                }
+            }
+
+
 
             // melee accuracy roll
             if (!isAccurate) {

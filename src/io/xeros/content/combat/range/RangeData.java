@@ -33,7 +33,7 @@ public class RangeData {
 	};
     public static final int[] BOWS = { 19481, 19478, 12788, 9185, 11785, 21012, 839, 845, 847, 851, 855, 859, 841, 843, 849,
             853, 857, 12424, 861, 4212, 4214, 4215, 12765, 12766, 12767, 12768, 11235, 4216, 4217, 4218, 4219, 4220,
-            4221, 4222, 4223, 4734, 6724, 20997, 21902, 22550, 26374 };
+            4221, 4222, 4223, 4734, 6724, 20997, 21902, 22550, 25865, 26374 };
 
     public static final int[] ARROWS = { 9341, 4160, 11959, 10033, 10034, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891,
             892, 893, 4740, 5616, 5617, 5618, 5619, 5620, 5621, 5622, 5623, 5624, 5625, 5626, 5627, 9139, 9140, 9141,
@@ -43,13 +43,13 @@ public class RangeData {
             21926, 21927, 21928, 21929, 21930, 21931, 21932, 21933, 21934, 21935, 21936, 21937, 21938, 21939, 21940, 21941,
             21942, 21943, 21944, 21945, 21946, 21947, 21948, 21949, 21950, 21951, 21952, 21953, 21954, 21955, 21956, 21957,
             21958, 21959, 21960, 21961, 21962, 21963, 21964, 21965, 21966, 21967, 21968, 21969, 21970, 21971, 21972, 21973,
-            21974};
-    public static final int[] CRYSTAL_BOWS = { 4212, 4214, 4215, 4216, 4217, 4218, 4219, 4220, 4221, 4222, 4223};
+            21974 };
+    public static final int[] CRYSTAL_BOWS = { 4212, 4214, 4215, 4216, 4217, 4218, 4219, 4220, 4221, 4222, 4223, 25865 };
 
     public static final int[] NO_ARROW_DROP = { 11959, 10033, 10034, 4212, 22550, 4214, 4215, 4216, 4217, 4218, 4219, 4220, 4221,
-            4222, 4223, 4734, 4934, 4935, 4936, 4937, 22550 };
+            4222, 4223, 4734, 4934, 4935, 4936, 4937, 22550, 25865 };
 
-    public static final int[] DOUBLE_SHOT_BOWS = {11235, 12765 , 12766, 12767, 12768};
+    public static final int[] DOUBLE_SHOT_BOWS = {11235, 12765 , 12766, 12767, 12768 };
 
     public static final int[] OTHER_RANGE_WEAPONS = { 11959, 10033, 10034, 800, 801, 802, 803, 804, 805, 20849, 806, 807, 808,
             809, 810, 811, 812, 813, 814, 815, 816, 817, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836,
@@ -127,7 +127,7 @@ public class RangeData {
 
 				// CRYSTAL_BOW
 				{ 4212, 250 }, { 4214, 250 },  { 22550, 250},{ 4215, 250 }, { 4216, 250 }, { 4217, 250 }, { 4218, 250 }, { 4219, 250 }, { 4220, 250 }, { 4221, 250 }, { 4222, 250 },
-				{ 4223, 250 },
+				{ 4223, 250 }, {25865, 250 },
 
 				// ARROWS
 				{ 882, 19 }, { 884, 18 }, { 886, 20 }, { 888, 21 }, { 890, 22 }, { 892, 24 }, { 11212, 1120 }, { 21326, 1385 },
@@ -202,8 +202,8 @@ public class RangeData {
 				{ 825, 200 }, { 826, 201 }, { 827, 202 }, { 828, 303 }, { 829, 504 }, { 830, 705 }, { 21318, 1000 }, { 19484, 1301 },
 
 				// AXES
-				{ 800, 36 }, { 801, 35 }, { 802, 37 }, { 803, 38 }, { 804, 39 }, { 805, 41 }, { 20849, 1319 }, {22634,1623},
-				{22804, 28},
+				{ 800, 36 }, { 801, 35 }, { 802, 37 }, { 803, 38 }, { 804, 39 }, { 805, 41 }, { 20849, 1319 }, { 22634,1623 },
+				{ 22804, 28 },
 
 				// ARROWS
 				{ 882, 19 }, { 884, 18 }, { 886, 20 }, { 888, 21 }, { 890, 22 }, { 892, 24 }, { 11212, 1120 }, { 21326, 1384 },
@@ -212,8 +212,10 @@ public class RangeData {
 				{ 10033, 908 }, { 10034, 909 }, { 11959, 909 },
 
 				// OTHERS
-				{ 6522, 442 }, { 4740, 27 }, { 4212, 249 } ,{ 4214, 249 },  { 22550, 249},{ 4215, 249 }, { 4216, 249 }, { 4217, 249 }, { 4218, 249 }, { 4219, 249 }, { 4220, 249 }, { 4221, 249 },
-				{ 4222, 249 }, { 4223, 249 }, };
+				{ 6522, 442 }, { 4740, 27 }, { 4212, 249 } ,{ 4214, 249 },  { 22550, 249 },{ 4215, 249 }, { 4216, 249 }, { 4217, 249 }, { 4218, 249 }, { 4219, 249 }, { 4220, 249 }, { 4221, 249 },
+				{ 4222, 249 }, { 4223, 249 }, { 25865, 249 }
+		};
+
 		for (int l = 0; l < data.length; l++) {
 			if (weaponId == data[l][0] || ammo == data[l][0]) {
 				str = data[l][1];
@@ -244,11 +246,11 @@ public class RangeData {
 			return 100;
 		}
 		switch (c.playerEquipment[3]) {
-			case 20849:
-				return 35;
-			case 22804:
-			case 22634:
-				return 45;
+		case 20849:
+			return 35;
+		case 22804:
+		case 22634:
+			return 45;
 		case 10033:
 		case 10034:
 		case 11959:
@@ -365,12 +367,11 @@ public class RangeData {
 	}
 
 	public static boolean wearingCrossbow(Player player) {
-		return player.playerEquipment[Player.playerWeapon] == 11785 || player.playerEquipment[Player.playerWeapon] == 9185
-				|| player.playerEquipment[Player.playerWeapon] == 21012 || player.playerEquipment[Player.playerWeapon] == 21902 || player.playerEquipment[Player.playerWeapon] == 26374;
+		return player.playerEquipment[Player.playerWeapon] == 11785 || player.playerEquipment[Player.playerWeapon] == 9185 || player.playerEquipment[Player.playerWeapon] == 21012 || player.playerEquipment[Player.playerWeapon] == 21902 || player.playerEquipment[Player.playerWeapon] == 26374;
 	}
 
 	public static boolean wearingBolt(Player player) {
 		int arrows = player.playerEquipment[Player.playerArrows];
-		return arrows >= 9236 && arrows <= 9245 || arrows >= 21_932 && arrows <= 21_951;
+		return (arrows >= 9236 && arrows <= 9245) || (arrows >= 21_932 && arrows <= 21_951);
 	}
 }

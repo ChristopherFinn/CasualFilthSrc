@@ -23,6 +23,7 @@ public enum EquipmentSet {
     HC_MAN_ARMOUR(new int[][]{{20792, 20794, 20796}}),
     DESERT_ROBES(new int[][]{{1833, 1835}}),
     ULTIMATE_IRON_MAN_ARMOUR(new int[][]{{12813, 12814, 12815}}),
+    AMULET_OF_BLOOD_FURY(new int[][]{{24780}}),
     AMULET_OF_THE_DAMNED(new int[][]{{Items.AMULET_OF_THE_DAMNED_FULL}, {Items.AMULET_OF_THE_DAMNED}}
 
     );

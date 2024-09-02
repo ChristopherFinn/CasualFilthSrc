@@ -85,7 +85,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 500
+  accessibility: 250
   items:
   - name: "basilisk jaw"
     minimum: 1

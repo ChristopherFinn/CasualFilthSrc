@@ -50,7 +50,7 @@ public enum Bow {
 	private static final Set<Bow> VALUES = Collections.unmodifiableSet(EnumSet.allOf(Bow.class));
 
 	/**
-	 * Test whether a given a given bow can use a given arrow.
+	 * Test whether a given bow can use a given arrow.
 	 * 
 	 *
 	 * @param c@return True in case the arrow can be used in combination with the bow, False if either is not a correct item id for the slot or if it can't be used.

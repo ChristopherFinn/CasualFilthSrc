@@ -191,7 +191,9 @@ public class CombatItems {
 	public boolean usingCrystalBow() {
 		return c.playerEquipment[Player.playerWeapon] >= 4212 && c.playerEquipment[Player.playerWeapon] <= 4223;
 	}
-
+	public boolean usingBofa() {
+		return c.playerEquipment[Player.playerWeapon] == Items.BOW_OF_FAERDHINEN;
+	}
 	public boolean usingCrawsBow() {
 		return c.playerEquipment[Player.playerWeapon] == Items.CRAWS_BOW;
 	}
@@ -211,8 +213,8 @@ public class CombatItems {
 
 	public boolean properBolts() {
 		int i = c.playerEquipment[Player.playerArrows];
-		return (i >= 9139 && i <= 9145) || (i >= 9236 && i <= 9245) || (i >= 9236 && i <= 9245) || (i >= 21924 && i <= 21974)
-				|| (i >= 9335 && i <= 9341) || i == 11875 || i == 9340 || i == 21905 || i == 21906 ||i == 21316;
+		return (i >= 9139 && i <= 9145) || (i >= 9236 && i <= 9245) || (i >= 21924 && i <= 21974)
+				|| (i >= 9335 && i <= 9341) || i == 11875 || i == 9340 || i == 21905 || i == 21906 || i == 21316;
 	}
 
 	public boolean usingJavelins(int i) {

@@ -76,13 +76,13 @@ common:
     minimum: 5
     maximum: 10
 rare:
-  accessibility: 100
+  accessibility: 75
   items:
   - name: "crystalline key"
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 850
+  accessibility: 500
   items:
   - name: "crystal body"
     minimum: 1

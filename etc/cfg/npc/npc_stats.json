@@ -4905,8 +4905,8 @@
   },
   "690": {
     "name": "Bandit",
-    "hitpoints": 65,
-    "combatLevel": 74,
+    "hitpoints": 125,
+    "combatLevel": 96,
     "attackSpeed": 4,
     "attackLevel": 65,
     "strengthLevel": 65,

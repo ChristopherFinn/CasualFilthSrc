@@ -22,7 +22,7 @@ public enum Crushable {
 	LAVA_SCALE(new GameItem(Items.LAVA_SCALE), new GameItem(Items.LAVA_SCALE_SHARD)),
 	UNICORN_HORN(new GameItem(237), new GameItem(235)),
 	BLUE_DRAGON_SCALE(new GameItem(243), new GameItem(241)),
-	CRYSTAL_DUST(new GameItem(Items.CRYSTAL_SHARD, 100), new GameItem(Items.CRYSTAL_DUST, 4)),
+	CRYSTAL_DUST(new GameItem(Items.CRYSTAL_SHARD, 100), new GameItem(Items.CRYSTAL_DUST, 10)),
 	;
 
 	private final GameItem original;

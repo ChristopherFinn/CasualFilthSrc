@@ -67661,7 +67661,7 @@
     "equipment": {
       "slot": 3,
       "arange": 100,
-      "rstr": 70,
+      "rstr": 78,
       "aspeed": 5
     }
   },
@@ -67871,6 +67871,23 @@
       "dcrush": 12,
       "dmagic": 15,
       "drange": 16
+    }
+  },
+  "25865": {
+    "name": "Bow of faerdhinen",
+    "equipable": true,
+    "weight": 1.5,
+    "equipment": {
+      "slot": 3,
+      "arange": 128,
+      "prayer": 0,
+      "aspeed": 5,
+      "dstab": 0,
+      "dslash": 0,
+      "dcrush": 0,
+      "dmagic": 0,
+      "drange": 0,
+      "rstr": 106
     }
   },
   "26471": {

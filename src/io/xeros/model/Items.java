@@ -22342,6 +22342,7 @@ public class Items {
     public static final int RUNNER_HAT_BROKEN_2 = 24_532;
     public static final int RUNNER_HAT_L = 24_533;
     public static final int AMULET_OF_BLOOD_FURY = 24_780;
+    public static final int BOW_OF_FAERDHINEN = 25_865;
     public static final int ZARYTE_CROSSBOW = 26_374;
     public static final int ELITE_VOID_TOP_OR = 26_469;
     public static final int ELITE_VOID_ROBE_OR = 26_471;

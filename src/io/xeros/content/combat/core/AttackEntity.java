@@ -772,24 +772,34 @@ public class AttackEntity {
             }
 
             if (!attacker.usingBallista && !attacker.usingCross && !attacker.usingArrows && attacker.usingBow && (((attacker.playerEquipment[Player.playerWeapon] < 4212) || (attacker.playerEquipment[Player.playerWeapon] > 4223)))
-                    && !(attacker.playerEquipment[Player.playerWeapon] == 22550)) {
+                    && !(attacker.playerEquipment[Player.playerWeapon] == 22550) && !(attacker.playerEquipment[Player.playerWeapon] == 25865)) {
                 attacker.sendMessage("You have run out of arrows!");
                 reset();
                 return false;
             }
 
-            if (!Bow.canUseArrow(attacker) && Configuration.CORRECT_ARROWS && attacker.usingBow && !attacker.getCombatItems().usingCrystalBow() && !(attacker.playerEquipment[Player.playerWeapon] == 22550) && attacker.playerEquipment[Player.playerWeapon] != 9185
+            if (!Bow.canUseArrow(attacker) && Configuration.CORRECT_ARROWS && attacker.usingBow && !attacker.getCombatItems().usingCrystalBow() && !attacker.getCombatItems().usingBofa() && !(attacker.playerEquipment[Player.playerWeapon] == 22550) && attacker.playerEquipment[Player.playerWeapon] != 9185
                     && attacker.playerEquipment[Player.playerWeapon] != 4734 && attacker.playerEquipment[Player.playerWeapon] != 11785 && attacker.playerEquipment[Player.playerWeapon] != 21012 && attacker.playerEquipment[Player.playerWeapon] != 12926 && attacker.playerEquipment[Player.playerWeapon] != 19478 && attacker.playerEquipment[Player.playerWeapon] != 19481 && attacker.playerEquipment[Player.playerWeapon] != 21902 && attacker.playerEquipment[Player.playerWeapon] != 26374) {
                 attacker.sendMessage("You can't use " + ItemAssistant.getItemName(attacker.playerEquipment[Player.playerArrows]).toLowerCase() + "'s with a "
                         + ItemAssistant.getItemName(attacker.playerEquipment[Player.playerWeapon]).toLowerCase() + ".");
                 return false;
             }
 
-            if (attacker.playerEquipment[Player.playerWeapon] == 9185 && attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 11785 && attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21012 && attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 21902 && attacker.getCombatItems().properBolts() || attacker.playerEquipment[Player.playerWeapon] == 26374 && attacker.getCombatItems().properBolts()) {
+            if (attacker.playerEquipment[Player.playerWeapon] == 9185 && attacker.getCombatItems().properBolts() && attacker.playerEquipment[Player.playerWeapon] == 11785 && attacker.getCombatItems().properBolts() && attacker.playerEquipment[Player.playerWeapon] == 21012 && attacker.getCombatItems().properBolts() && attacker.playerEquipment[Player.playerWeapon] == 21902 && attacker.getCombatItems().properBolts() && attacker.playerEquipment[Player.playerWeapon] == 26374 && attacker.getCombatItems().properBolts()) {
                 attacker.sendMessage("You must use bolts with a crossbow.");
+                reset();
                 return false;
             }
-
+            if (attacker.usingCross && !attacker.getCombatItems().properBolts() && !attacker.getCombatItems().usingCrystalBow() && !attacker.getCombatItems().usingBofa()) {
+                attacker.sendMessage("You have run out of bolts!");
+                reset();
+                return false;
+            }
+            if (attacker.getCombatItems().usingBofa() && attacker.playerEquipment[Player.playerArrows] != -1) {
+                attacker.sendMessage("You can't use arrows with the Bow of faerdhinen!");
+                reset();
+                return false;
+            }
             if (attacker.playerEquipment[Player.playerWeapon] == 19478 && !attacker.getCombatItems().usingJavelins(attacker.playerEquipment[Player.playerArrows]) || attacker.playerEquipment[Player.playerWeapon] == 19481 && !attacker.getCombatItems().usingJavelins(attacker.playerEquipment[Player.playerArrows])) {
                 attacker.sendMessage("You must use javelins with a ballista.");
                 return false;
@@ -840,7 +850,7 @@ public class AttackEntity {
         }
     }
 
-    public static int getRangeDistance(Player player) {
+    public static int getRangeDistance(Player player) { //Bow Range Distance
         ItemDef definition = ItemDef.forId(player.getItems().getWeapon());
         if (definition == null)
             return 5;

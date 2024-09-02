@@ -608,13 +608,11 @@ public class UseItem {
 			c.getItems().deleteItem(3157, 1);
 			c.getItems().addItem(3159, 1);
 		}
+
 		if (c.getFletching().fletchBolt(itemUsed, useWith)) {
 			return;
 		}
-		if (itemUsed == 23804 && (useWith == 19550)) {
-			c.sendMessage("You must use a ring of suffering on another ring of suffering to imbue.");
-			return;
-		}
+
 		if (itemUsed == 23804 && !(useWith == 6737 || useWith == 6731 || useWith == 6733 || useWith == 12601 || useWith == 12603 || useWith == 12605)) {
 			c.sendMessage("This can only be used on dagganoth rings and wildy rings.");
 			return;
@@ -1186,6 +1184,15 @@ public class UseItem {
 		if (itemUsed == 12526 && useWith == 6585 || itemUsed == 6585 && useWith == 12526) {
 			c.getDH().sendDialogues(580, -1);
 		}
+		if (itemUsed == 6585 && useWith == 24777 || useWith == 24777 && itemUsed == 6585) {
+			if (c.getItems().playerHasItem(24777) && c.getItems().playerHasItem(6585)) {
+				c.getItems().deleteItem(6585, 1);
+				c.getItems().deleteItem2(24777, 1);
+				c.getItems().addItem(24780, 1);
+				c.getDH().sendStatement("You combine the shard with the amulet... it seems stronger now.");
+				c.nextChat = -1;
+			}
+		}
 		if (itemUsed == 20062 && useWith == 19553 || itemUsed == 19553 && useWith == 20062) {
 			c.getDH().sendDialogues(580, -1);
 		}
@@ -1342,10 +1349,10 @@ public class UseItem {
 			}
 		}
 
-		if((itemUsed == 19550 && useWith == 19550)) {//ros
+		if((itemUsed == 19550 && useWith == 23804 || itemUsed == 23804 && useWith == 19550)) {//ros
 			if (c.getItems().playerHasItem(19550)) {
 				c.getItems().deleteItem(19550, 1);
-				c.getItems().deleteItem(19550, 1);
+				c.getItems().deleteItem(23804, 1);
 				c.getItems().addItem(19710, 1);
 				c.sendMessage("You successfully created ring of suffering (i).");
 			} else {

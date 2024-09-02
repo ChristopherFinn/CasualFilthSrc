@@ -228,11 +228,7 @@ public class PresetManager {
 
 			populateInterface(player, preset);
 		} else {
-			if (player.amDonated <= 49 && index > 2) {
-				player.sendMessage("Only donators+ can have more than 3 presets!");
-				return;
-			}
-			
+
 			for(int i = 0; i < 10; i++) {
 				player.getPA().sendConfig(903 + i, 0);
 			}

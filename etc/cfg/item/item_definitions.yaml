@@ -70001,8 +70001,9 @@
   stackable: true
 - id: 21905
   name: "Dragon bolts"
-  description: "."
+  description: "Dragon crossbow bolts."
   stackable: true
+  shopValue: 750
 - id: 21907
   name: "Vorkath's head"
   shopValue: 5000
@@ -70337,7 +70338,7 @@
       level: 75
 - id: 22324
   name: "Ghrazi rapier"
-  description: "Ghrazi rapier."
+  description: "A razor sharp rapier, smeared with vampyric blood."
   shopValue: 12800000
   noteId: 22483
   requirements:
@@ -72391,12 +72392,16 @@
       level: 30
     - skill: "MAGIC"
       level: 30
+- id: 24777
+  name: "Blood shard"
+  description: "A magical shard filled with dark magic."
+  shopValue: 5000000
 - id: 24780
   name: "Amulet of blood fury"
   description: "A very powerful onyx amulet, imbued with blood magic."
   shopValue: 12000000
 - id: 26374
-  name: "Zaryte Crossbow"
+  name: "Zaryte crossbow"
   description: "A weapon born out of conflict."
   shopValue: 100000000
   untradeable: false
@@ -72536,5 +72541,14 @@
   requirements:
     - skill: "DEFENCE"
       level: 45
+    - skill: "RANGED"
+      level: 80
+- id: 25865
+  name: "Bow of faerdhinen"
+  description: "A magical elven bow."
+  shopValue: 135000000
+  requirements:
+    - skill: "AGILITY"
+      level: 70
     - skill: "RANGED"
       level: 80

@@ -1223,7 +1223,7 @@ public class LoadSpell {
                     npc.startAnimation(-1);
                     npc.projectileId = 1380;
                     npc.endGfx = 367;
-                } else if (r100 >= 45 && r100 <=95) {
+                } else if (r100 >= 45 && r100 <=97) {
                     npc.forceChat("Transfix!");
                     npc.setAttackType(CombatType.RANGE); //Gatekeeper Range Attack
                     npc.projectileId = 500;

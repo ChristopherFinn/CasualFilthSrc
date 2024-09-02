@@ -14,7 +14,7 @@ public class TreasureTrailsRewards {
 	/**
 	 * After first roll the drop rate decreased (gets lower) by this amount (e.g. 6 = 6 times more rare).
 	 */
-	public static final int RARE_ROLL_CURVE = 6;
+	public static final int RARE_ROLL_CURVE = 4;
 
 	private static final Map<RewardLevel, Map<RewardRarity, List<TreasureTrailsRewardItem>>> rewards = new HashMap<>();
 	public static final Map<RewardLevel, List<TreasureTrailsRewardItem>> possibleDrops = new HashMap<>();
