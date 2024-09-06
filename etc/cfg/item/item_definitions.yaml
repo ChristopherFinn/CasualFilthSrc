@@ -23647,7 +23647,7 @@
 - id: 4740
   name: "Bolt rack"
   description: "Must need a special type of crossbow to use this."
-  shopValue: 50
+  shopValue: 1000
   stackable: true
 - id: 4745
   name: "Torag's helm"
@@ -55207,7 +55207,7 @@
 - id: 11959
   name: "Black chinchompa"
   description: "Even more volatile than its vegetarian counterpart."
-  shopValue: 12000
+  shopValue: 1000
   stackable: true
   requirements:
     - skill: "RANGED"
@@ -60042,7 +60042,7 @@
 - id: 12934
   name: "Zulrah's scales"
   description: "Flakes of toxic snakeskin."
-  shopValue: 20
+  shopValue: 1000
   stackable: true
 - id: 12935
   name: "Ohn's diary"

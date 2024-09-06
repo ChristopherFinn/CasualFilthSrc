@@ -378,16 +378,19 @@ public class Cannon {
     }
 
     private int getCannonMaxAmmoCount(Player player) {
-            if (player.amDonated >= 1000)
-                return 60;
-            if (player.amDonated >= 500)
-                return 50;
-            if (player.amDonated >= 250)
-                return 45;
-            if (player.amDonated >= 100)
-                return 40;
-            if (player.amDonated >= 50)
-                return 35;
+        if (Player.playerCape == Items.MAX_CAPE ||
+                Player.playerCape == Items.ASSEMBLER_MAX_CAPE ||
+                Player.playerCape == Items.ACCUMULATOR_MAX_CAPE ||
+                Player.playerCape == Items.ARDOUGNE_MAX_CAPE ||
+                Player.playerCape == Items.INFERNAL_MAX_CAPE ||
+                Player.playerCape == Items.FIRE_MAX_CAPE ||
+                Player.playerCape == Items.SARADOMIN_MAX_CAPE ||
+                Player.playerCape == Items.ZAMORAK_MAX_CAPE ||
+                Player.playerCape == Items.GUTHIX_MAX_CAPE ||
+                Player.playerCape == Items.IMBUED_SARADOMIN_MAX_CAPE ||
+                Player.playerCape == Items.IMBUED_ZAMORAK_MAX_CAPE ||
+                Player.playerCape == Items.IMBUED_GUTHIX_MAX_CAPE)
+            return 60;
         return 30;
     }
 }

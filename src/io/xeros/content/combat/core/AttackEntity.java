@@ -790,7 +790,7 @@ public class AttackEntity {
                 reset();
                 return false;
             }
-            if (attacker.usingCross && !attacker.getCombatItems().properBolts() && !attacker.getCombatItems().usingCrystalBow() && !attacker.getCombatItems().usingBofa()) {
+            if (attacker.usingCross && !attacker.getCombatItems().properBolts() && !attacker.getCombatItems().usingCrystalBow() && !attacker.getCombatItems().usingBofa() && attacker.playerEquipment[Player.playerWeapon] != 4734) {
                 attacker.sendMessage("You have run out of bolts!");
                 reset();
                 return false;
