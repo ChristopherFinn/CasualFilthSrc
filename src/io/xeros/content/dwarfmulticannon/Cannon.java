@@ -25,13 +25,13 @@ import io.xeros.model.world.objects.GlobalObject;
 import io.xeros.util.Misc;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import io.xeros.content.SkillcapePerks;
 
 import static io.xeros.content.dwarfmulticannon.CannonConstants.*;
 
 public class Cannon {
 
     private static final Logger logger = LoggerFactory.getLogger(Cannon.class);
-
     private static HashSet<Boundary> BLOCKED_BOUNDARIES = new HashSet<>(Arrays.asList(
             Boundary.MAGE_ARENA
     ));
@@ -378,19 +378,11 @@ public class Cannon {
     }
 
     private int getCannonMaxAmmoCount(Player player) {
-        if (Player.playerCape == Items.MAX_CAPE ||
-                Player.playerCape == Items.ASSEMBLER_MAX_CAPE ||
-                Player.playerCape == Items.ACCUMULATOR_MAX_CAPE ||
-                Player.playerCape == Items.ARDOUGNE_MAX_CAPE ||
-                Player.playerCape == Items.INFERNAL_MAX_CAPE ||
-                Player.playerCape == Items.FIRE_MAX_CAPE ||
-                Player.playerCape == Items.SARADOMIN_MAX_CAPE ||
-                Player.playerCape == Items.ZAMORAK_MAX_CAPE ||
-                Player.playerCape == Items.GUTHIX_MAX_CAPE ||
-                Player.playerCape == Items.IMBUED_SARADOMIN_MAX_CAPE ||
-                Player.playerCape == Items.IMBUED_ZAMORAK_MAX_CAPE ||
-                Player.playerCape == Items.IMBUED_GUTHIX_MAX_CAPE)
+        if (SkillcapePerks.isWearingMaxCape(player)) {
             return 60;
-        return 30;
+        } else {
+            return 30;
+        }
+
     }
 }
